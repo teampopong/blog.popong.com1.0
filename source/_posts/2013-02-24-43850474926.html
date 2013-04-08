@@ -1,0 +1,126 @@
+---
+layout: post
+title: Updates (Jan., Feb. 2013)
+---
+
+<p>Since November 2010, Team POPONG has went through a variety of discussions and experiments.<br/>
+
+Inspired by <a href="http://www.govtrack.us/blog/2013/02/09/winter-2013-updates-1/" target="_blank">GovTrack&#8217;s periodical reports</a>, we now plan to share our day-by-day lessons. We hope they would benefit other toddler teams that are imagining their own services.</p>
+
+
+
+<h3>Politician Dictionary</h3>
+
+
+
+<ul><li>Dropped usage of MongoDB, and migrated to SQLAlchemy+PostgreSQL.
+
+
+
+<ul><li>Detailed backgrounds shall be posted in the future.</li>
+
+</ul></li>
+
+<li><p>Created portable widgets for a politician&#8217;s <strong>timeline</strong> and <strong>related people</strong>.</p>
+
+
+
+<pre><code>&lt;script src="http://popong.com/widgets/relation.js?person_id=195224" type="text/javascript"&gt;&lt;/script&gt;
+
+</code></pre></li>
+
+<li>Exposed politicians&#8217; Chinese names along with the Korean names.</li>
+
+<li>Added birthyear page (ex: <a href="http://popong.com/polidic/year/1953" target="_blank">Politicians born in 1953</a>).</li>
+
+<li>Modified the browser title, so that the more importation information came first.
+
+
+
+<ul><li><code>POPONG Politician Dictionary - Chin Seon-mi</code> <br/>-&gt; <code>Chin Seon-mi (Minjut-Onghap Party) :: POPONG Politician Dictionary</code></li>
+
+</ul></li>
+
+<li>Started accumulating visiting logs.</li>
+
+</ul><h3>Data</h3>
+
+
+
+<ul><li>Collected all datasets dispersed among the whole filesystem into a single Git repository.
+
+
+
+<ul><li>Documented known sources for every dataset.</li>
+
+</ul></li>
+
+<li>Imported Twitter, Facebook addresses of politicians 
+
+
+
+<ul><li>From <a href="https://docs.google.com/spreadsheet/ccc?key=0Ao-novvdf79gdExCbW9FVWg0VlBoanNQSzV1akFJR1E" target="_blank">SNS addressbook of politicians (unofficial)</a> by <a href="http://maplestory.com" target="_blank">@mazefind</a>.</li>
+
+</ul></li>
+
+<li>Built a glossary of terms containing Korean meanings, English translations, and aliases.</li>
+
+<li>Built a mapping between Hanja(Chinese)-Hangul(Korean) for transliterations.
+
+
+
+<ul><li>Both for Korean last names and for general use.</li>
+
+</ul></li>
+
+<li>Wrote a PDF-parsing library in Jython. 
+
+
+
+<ul><li>However, produces errors and does not yet work perfectly.</li>
+
+<li>ex: &#8220;대안&#8221; →  &#8220;눀안&#8221;</li>
+
+</ul></li>
+
+<li>Crawled the number of Google search results of each politician in order to digitize the politician&#8217;s popularity.
+
+
+
+<ul><li>ex: &#8220;<em>About 24,900,000 results (0.13 seconds)</em>&#8221;</li>
+
+<li>However, this approach was deprecated.</li>
+
+<li>Alternatives exists: Twitter search index or co-authorships of bills.</li>
+
+</ul></li>
+
+<li>Gathered and preprocessed <a href="https://github.com/teampopong/southkorea-maps" target="_blank">South Korean map data</a>.</li>
+
+</ul><h3>Misc</h3>
+
+
+
+<ul><li>Created <a href="http://developers.popong.com" target="_blank">Developers Page</a>.</li>
+
+<li><p>Added link alternates.</p></li>
+
+<li><p>Applied i18n so that all pages are also available in English: .</p></li>
+
+<li>Switched from Apache2 to Nginx.</li>
+
+<li>Standardized file naming convention.
+
+
+
+<ul><li>Only Roman letters.</li>
+
+<li>Lower-case everywhere.</li>
+
+<li>Underscores(<code>_</code>) between words.</li>
+
+</ul></li>
+
+<li>Participated in OKFnKorea&#8217;s Open Data Day Conference, and organized <a href="https://github.com/teampopong/korea-assembly-officials-property" target="_blank">19th Assembly members&#8217; property data</a>.</li>
+
+</ul>
