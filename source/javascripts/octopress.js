@@ -38,20 +38,13 @@ function addSidebarToggler() {
   if (sections.length >= 3){ $('aside.sidebar').addClass('thirds'); }
 }
 
-function testFeatures() {
-  var features = ['maskImage'];
-  $(features).map(function(feature) {
-    if (Modernizr.testAllProps(feature)) {
-      $('html').addClass(feature);
-    } else {
-      $('html').addClass('no-'+feature);
-    }
-  });
-  if ("placeholder" in document.createElement("input")) {
-    $('html').addClass('placeholder');
-  } else {
-    $('html').addClass('no-placeholder');
-  }
+function testFeatures() {   
+    var features = ['maskImage'];   
+    $(features).map(function(i,feature){     
+        Modernizr.addTest(feature,function(){
+            Modernizr.testAllProps(feature)
+        });
+    });
 }
 
 function addCodeLineNumbers() {
@@ -116,7 +109,7 @@ function renderDeliciousLinks(items) {
   $('#delicious').html(output);
 }
 
-$.domReady(function() {
+$(function() {
   testFeatures();
   wrapFlashVideos();
   flashVideoFallback();

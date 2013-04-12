@@ -4,7 +4,6 @@ body {
 }
 
 #container {
-    width: 730px;
     margin: 48px auto;
     padding: 0;
 }
@@ -20,4 +19,15 @@ footer {
 
 .navbar-search {
   margin-top: 12px;
+}
+
+@media (max-width:767px) {
+	#main {
+		margin-top: 40px;
+	}
+
+	#nav-rss,
+	.navbar-search {
+		display: none;
+	}
 }
