@@ -1,6 +1,35 @@
-<hgroup>
-  <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
-  {% if site.subtitle %}
-    <h2>{{ site.subtitle }}</h2>
-  {% endif %}
-</hgroup>
+<div class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="http://popong.com/"><img src="http://popong.com/static/images/popong_w.png" width="80px" alt="popong logo"></a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><a href="http://popong.com/">Home</a></li>
+          <li class="active"><a href="http://blog.popong.com/">Blog</a></li>
+          <li><a href="{{ root_url }}/blog/archives">Archives</a></li>
+          <li><a href="http://popong.com/about">About</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+      <div id="lang">
+        <ul class="nav-pills">
+          <li><a href="http://blog.popong.com/categories/en">en</a></li>
+          <li class="active"><a href="#">ko</a></li>
+        </ul>
+      </div>
+      <ul class="nav pull-right">
+        <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+      </ul>
+      <form class="navbar-search pull-right" action="{{ site.simple_search }}" method="get">
+        <fieldset role="search">
+          <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
+          <input class="search search-query" type="text" name="q" results="0" placeholder="Search"/>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</div> <!-- end .navigation bar -->

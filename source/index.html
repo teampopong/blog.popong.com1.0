@@ -7,7 +7,19 @@ layout: default
   {% for post in paginator.posts %}
   {% assign content = post.content %}
     <article>
-        {% include article.html %}
+		{% if index %}
+		  <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+		{% else %}
+		  <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+		{% endif %}
+		{% unless page.meta == false %}
+		  <p class="meta">
+			{% include post/date.html %}{{ time }}
+			{% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
+			 | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
+			{% endif %}
+		  </p>
+		{% endunless %}
     </article>
   {% endfor %}
   <div class="pagination">
@@ -20,10 +32,3 @@ layout: default
     {% endif %}
   </div>
 </div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>

@@ -4,7 +4,7 @@
 
 url: http://blog.popong.com
 title: team POPONG
-subtitle: Developer Documentation
+subtitle: Make it a better world.
 author: team POPONG
 simple_search: http://google.com/search
 description: Hello, world developers! The POPONG API is one step forward towards making political data easily accessible.
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: contact@popong.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -45,7 +45,7 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: []
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -89,8 +89,8 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: teampopong-ko
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:
