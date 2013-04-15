@@ -118,6 +118,14 @@ body #container {
   background-color: #777;
 }
 
+#rss {
+  margin: 10px;
+  padding: 0;
+  img {
+    width: 30px;
+  }
+}
+
 #copyright {
   float: left;
 }
@@ -296,6 +304,10 @@ li {
 
 .author {
 	text-align: right;
+}
+
+.hentry {
+  margin: 3em 0;
 }
 
 /* page footer */
