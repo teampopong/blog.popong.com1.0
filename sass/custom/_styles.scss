@@ -298,6 +298,7 @@ li {
 	text-align: right;
 }
 
+/* page footer */
 footer {
   margin-top: 0;
   border-top: none;
@@ -319,4 +320,11 @@ footer {
   #tw {
     display: inline-block;
   }
+}
+
+/* category pages */
+#year {
+    color: #97ca00;
+    font-size: 37px;
+    margin: 30px 0 10px;
 }
