@@ -302,4 +302,21 @@ footer {
   margin-top: 0;
   border-top: none;
 }
-  
+
+#copyright {
+  p, a {
+    font-size: 13px;
+  }
+}
+
+#sociallinks {
+  position: relative;
+  display: inline-block;
+  #fb {
+    margin: 0 10px;
+    width: 76px;
+  }
+  #tw {
+    display: inline-block;
+  }
+}
