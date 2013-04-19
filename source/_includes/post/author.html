@@ -5,4 +5,4 @@
 {% else %}
   {% assign author = site.author %}
 {% endif %}
-{% if author %}<div class="byline author vcard">Posted by <span class="fn">{{ author }}</span></div>{% endif %}
+{% if author %}<div class="byline author vcard">Posted by <span class="fn"><a href="http://twitter.com/{{ author }}" target="_blank">@{{ author }}</a></span></div>{% endif %}
