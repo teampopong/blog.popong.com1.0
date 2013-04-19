@@ -5,14 +5,18 @@ body {
   font-family: "helvetica neue", helveltica, arial, sans-serif;
   font-size: 14px;
   line-height: 23px;
-}
 
-body a:hover {
-  color: #ff0058;
+  a {
+    color: olivedrab;
+  }
+  a:hover {
+    color: #97ca00;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
   text-rendering: auto;
+  margin-top: 21px;
   margin-bottom: 7px;
 }
 
@@ -21,7 +25,6 @@ h1 {
   line-height: 36px;
 
   a {
-    color: #000;
     text-decoration: none;
 
     &:hover {
@@ -151,6 +154,15 @@ iframe#tumblr_controls {
 }
 
 /* posts */
+header {
+  margin-bottom: 30px;
+
+  .meta-author, .meta-date {
+    color: #999;
+    text-align: right;
+  }
+}
+
 body #container {
   padding: 0 10%;
 }
@@ -258,19 +270,8 @@ blockquote > p {
   font-size: 12px;
 }
 
-.title {
-  font-weight: bold;
-}
 
-.title a {
-  color: #000;
-  font-size: 24px;
-  line-height: 36px;
-}
 
-.title a:hover {
-  color: #000;
-}
 
 #post-description {
   margin-bottom: 15px;
