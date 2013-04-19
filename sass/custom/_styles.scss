@@ -311,6 +311,21 @@ li {
   margin: 3em 0;
 }
 
+.entry-title {
+    margin: 0;
+    display: inline-block;
+}
+
+.meta {
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.entry-content {
+  border: 1px solid #CCC;
+  padding: 20px;
+}
+
 /* page footer */
 footer {
   margin-top: 0;

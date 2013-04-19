@@ -15,9 +15,11 @@ layout: default
         {% endif %}
       </a>
     </h1>
+    <p class="meta">
     {% if page.date %}
-    <p class="meta">{% include post/date.html %}{{ time }}</p>
+    {% include post/date.html %}{{ time }}
     {% endif %}
+    </p>
   </header>
   {% endif %}
   {{ content }}

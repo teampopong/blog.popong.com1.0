@@ -14,12 +14,12 @@
     </h1>
     {% endif %}
     {% unless page.meta == false %}
-      <p class="meta">
+      <div class="meta pull-right">
           {% include post/author.html %}
           <div class="meta-date">
               {% include post/date.html %}{{ time }}
           </div>
-      </p>
+      </div>
     {% endunless %}
   </header>
 {% endunless %}
