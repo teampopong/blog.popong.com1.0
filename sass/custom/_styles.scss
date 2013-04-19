@@ -334,7 +334,15 @@ li {
     padding: 30px 15px;
   }
 
-  .entry-title, .meta {
+  .entry-title {
+    display: block;
+    right: 0;
+    margin-top: 10px;
+    float: none;
+    font-size: 23px;
+  }
+
+  .meta {
     display: block;
     right: 0;
     margin-top: 10px;
