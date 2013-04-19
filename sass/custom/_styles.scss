@@ -316,6 +316,7 @@ li {
 
 .meta {
     display: inline-block;
+    float: right;
 }
 
 .entry-content {
@@ -337,6 +338,7 @@ li {
     display: block;
     right: 0;
     margin-top: 10px;
+    float: none;
   }
 }
 
