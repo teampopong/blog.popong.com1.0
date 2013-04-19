@@ -46,7 +46,7 @@ code {
 }
 
 body #container {
-  max-width: 700px; /*1170px;*/
+  max-width: 900px; /*1170px;*/
   margin: auto;
 }
 
@@ -307,23 +307,20 @@ li {
 	text-align: right;
 }
 
-.hentry {
-  margin: 3em 0;
-}
-
 .entry-title {
     margin: 0;
     display: inline-block;
+    font-size: 27px;
+    padding-top: 5px;
 }
 
 .meta {
     display: inline-block;
-    margin-top: 3px;
 }
 
 .entry-content {
   border: 1px solid #CCC;
-  padding: 20px;
+  padding: 30px 50px;
 }
 
 /* page footer */
