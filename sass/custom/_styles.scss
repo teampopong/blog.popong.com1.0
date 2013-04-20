@@ -359,6 +359,7 @@ footer {
 }
 
 #copyright {
+  margin: 0 5px;
   p, a {
     font-size: 13px;
   }
@@ -368,10 +369,11 @@ footer {
   position: relative;
   display: inline-block;
   #fb {
-    margin: 0 10px;
+    margin: 0 5px;
     width: 76px;
   }
   #tw {
+    margin: 0 5px;
     display: inline-block;
   }
 }
