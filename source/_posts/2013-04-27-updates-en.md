@@ -7,19 +7,20 @@ categories: [en, updates]
 ---
 
 
-In the last two months, Team popong did followings.
+In the last two months, Team POPONG did the followings.
+<!-- more -->
 
-### Politicina Dictionary
+### Politician Dictionary
 
-* Layout renewal (in progress)
-    * Tried to change from 2-column to 3-column, but decided to back to 2-column layout
-* Search by party affiliation
-    * More search options available soon!
-* Autocomplete(typeahead) in search box
-* Saving favorite politicians (Cart)
-* Display more personal infos of politicians
+* Layout renewal (in progress): Attempted to change from a 2-column to 3-column layout, but decided to go back to 2 columns
+
+    {% img /images/2013-04-27-before.png 350 %} {% img /images/2013-04-27-after.png 350 %}
+* Search by political party affiliation (More search options available soon!)
+* Autocomplete([typeahead](http://twitter.github.io/typeahead.js/)) in search box
+* Add feature to save favorite politicians to cart
+* Display more personal information of politicians
     * district, job, education, experience, address
-* Improve transliteration
+* Improve transliteration using [Unidecode](https://pypi.python.org/pypi/Unidecode)
 * Test GIN(Generalized Inverted Index) index + trigram module: sequential search was faster because the dataset is too small
 
 
@@ -28,15 +29,15 @@ In the last two months, Team popong did followings.
 * Database history management through [Alembic](http://pypi.python.org/pypi/alembic)
 * Build transliteration dictionary for Korean last names
 * Collect more minutes (Updated crawler)
-
+* Refine politician address and district data
 
 ### Misc
 * [popong.com](http://popong.com)
     * Embed [Twitter](http://dev.twitter.com/docs/follow-button), [Facebook](http://developers.facebook.com/docs/reference/plugins/like/) buttons
     * Test [Travis CI](https://travis-ci.org/teampopong/popong.com)
-* Migrate internal repositories to [GitHub](http://github.com/teampopong): to open-source step-by-step
+* Migrate internal repositories to [GitHub](http://github.com/teampopong): Gradually turning to open-source :)
     * Websites: [popong.com](https://github.com/teampopong/popong.com), [blog.popong.com](https://github.com/teampopong/teampopong.github.com), [popong.com/iamseoulmayor](https://github.com/teampopong/iamseoulmayor), [labs.popong.com/codenamu](https://github.com/teampopong/nanow)
     * Data: [South Korean maps](https://github.com/teampopong/southkorea-maps), [South Korean population](https://github.com/teampopong/southkorea-population)
-    * [Crawlers](https://github.com/teampopong/crawlers)
+    * Codes: [Crawlers](https://github.com/teampopong/crawlers), [NLP](https://github.com/teampopong/nlp)
 * Participated in [Open Data Day](http://onoffmix.com/event/12520) hosted by [OKFN Korea](http://www.facebook.com/groups/OKFNKorea/)
-    * Released [Property data of Korean assembly officials](https://github.com/teampopong/korea-assembly-officials-property)
+    * Released [property data of Korean National Assembly officials](https://github.com/teampopong/korea-assembly-officials-property)

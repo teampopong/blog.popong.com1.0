@@ -14,7 +14,6 @@ categories: [ko, updates]
 
     {% img /images/2013-04-27-before.png 350 %} {% img /images/2013-04-27-after.png 350 %}
     <div class='caption'>비포 앤 애프터</div>
-
 - [typeahead.js](http://twitter.github.io/typeahead.js/)를 이용하여 검색창에 자동완성 기능 추가
 - 관심이 있는 의원을 담아둘 수 있는 '카트' 기능 추가
 - 지역구, 직업, 최종학력, 경력, 주소 등 추가적인 데이터를 기본 정보에서 보여주고, 타임라인과 트렌드를 별도의 탭으로 분리 (모아보기 탭 추가 예정)
