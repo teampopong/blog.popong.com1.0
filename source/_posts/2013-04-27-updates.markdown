@@ -1,0 +1,33 @@
+---
+layout: post
+title: "2013년 3, 4월 업데이트 내역"
+date: 2013-04-27 16:35
+comments: true
+categories: [ko, updates]
+---
+
+지난 두 달간 팀포퐁은 다음과 같은 일들을 했습니다.<!-- more -->
+
+### 인명사전
+- 검색 속도 개선 실험
+    - 가설: `like`문을 이용한 sequential search 대신 PostgreSQL의 GIN(Generalized Inverted Index) index + trigram module을 이용한 text search가 빠를까?
+    - 결론: dataset이 워낙 작아서 seq search가 더 빠름. (현재 포퐁 인물 DB의 entity 개수는 약 24,000여 개)
+- 정당 검색 추가 (정당은 대수-인물 수 순으로 정렬)
+
+
+### 데이터
+- [Alembic](https://pypi.python.org/pypi/alembic) 이용해서 본격적인 DB history/migration 관리
+    - _철이의 소감_
+
+### 기타
+- [popong.com](http://popong.com)
+    - `sudo service popong start/stop/restart` 로 서버를 켜고 끌 수 있게 함
+    - [Twitter](http://dev.twitter.com/docs/follow-button), [Facebook](http://developers.facebook.com/docs/reference/plugins/like/) 버튼 추가
+    - [Travis CI](https://travis-ci.org/teampopong/popong.com) 적용
+- 내부 git 저장소들을 [GitHub](http://github.com/teampopong)으로 migration: 팀포퐁 프로젝트의 오픈소스화를 위해 점진적으로 저장소 이전.
+    - Websites: [popong.com](https://github.com/teampopong/popong.com), [blog.popong.com](https://github.com/teampopong/teampopong.github.com), [popong.com/iamseoulmayor](https://github.com/teampopong/iamseoulmayor), [labs.popong.com/codenamu](https://github.com/teampopong/nanow)
+    - Data: [대한민국 지도](https://github.com/teampopong/southkorea-maps), [대한민국 인구](https://github.com/teampopong/southkorea-population), [19대 국회 재산 내역](https://github.com/teampopong/korea-assembly-officials-property)
+    - [Crawlers](https://github.com/teampopong/crawlers)
+- [OKFN Korea](http://www.facebook.com/groups/OKFNKorea/)의 [오픈 데이터 데이](http://onoffmix.com/event/12520) 참가
+
+건의 또는 질문할 사항이 있으면 댓글 달아주세요 :)
