@@ -11,8 +11,10 @@ categories: [ko, updates]
 
 ### 인명사전
 - 레이아웃 리뉴얼 (2-column에서 3-column으로): 시험적으로 변경을 해봤는데, 복잡성이 증가했다는 의견과, 한 인물에 대한 페이지 같지 않다는 의견이 있어서 다시 2-column으로 회귀할 생각입니다. ㅎㅎ
+
     {% img /images/2013-04-27-before.png 350 %} {% img /images/2013-04-27-after.png 350 %}
     <div class='caption'>비포 앤 애프터</div>
+
 - [typeahead.js](http://twitter.github.io/typeahead.js/)를 이용하여 검색창에 자동완성 기능 추가
 - 관심이 있는 의원을 담아둘 수 있는 '카트' 기능 추가
 - 지역구, 직업, 최종학력, 경력, 주소 등 추가적인 데이터를 기본 정보에서 보여주고, 타임라인과 트렌드를 별도의 탭으로 분리 (모아보기 탭 추가 예정)
@@ -25,7 +27,7 @@ categories: [ko, updates]
 ### 데이터
 - [Alembic](https://pypi.python.org/pypi/alembic)을 이용해서 본격적인 DB history/migration 관리
 - 의원의 주소지 및 출마지 structurization
-    - ex: `경기 부천시원미구을` -> `경기도(시도) 부천시(시군구) 원미구(시군구) 을`
+    - ex: `경기 부천시원미구을` -> `경기도<시도> 부천시<시군구> 원미구<시군구> 을`
 - 18대 회의록 및 의안 크롤링 완료 (**두구두구**)
 
 ### 기타
@@ -39,5 +41,5 @@ categories: [ko, updates]
 - [OKFN Korea](http://www.facebook.com/groups/OKFNKorea/)의 [오픈 데이터 데이](http://onoffmix.com/event/12520) 참가: 좋은 일을 하는 멋진 분들과 [19대 국회 재산 내역](https://github.com/teampopong/korea-assembly-officials-property) 데이터 정리
 
 
-다음달에는 지속적으로 의원 데이터를 정리하고, 드디어! 의안 및 회의록에서 텍스트를 추출해서 분석을 시작할 예정입니다.
+다음달에는 지속적으로 의원 데이터를 정리하고, 드디어! 의안 및 회의록에서 텍스트를 추출해서 분석을 시작할 예정입니다.<br>
 건의, 질문, 또는 요청할 사항이 있으면 편하게 댓글 달아주시면 감사하겠습니다 :)
