@@ -14,21 +14,22 @@ In the last two months, Team POPONG did the followings.
 * Layout renewal (in progress): Attempted to change from a 2-column to 3-column layout, but decided to go back to 2 columns
 
     {% img /images/2013-04-27-before.png 350 %} {% img /images/2013-04-27-after.png 350 %}
-* Search by political party affiliation (More search options available soon!)
 * Autocomplete([typeahead](http://twitter.github.io/typeahead.js/)) in search box
 * Add feature to save favorite politicians to cart
 * Display more personal information of politicians
     * district, job, education, experience, address
-* Improve transliteration using [Unidecode](https://pypi.python.org/pypi/Unidecode)
+    * Separate timeline and trends into new tabs
 * Test GIN(Generalized Inverted Index) index + trigram module: sequential search was faster because the dataset is too small
+* Search by political party affiliation
+* Improve transliteration using [Unidecode](https://pypi.python.org/pypi/Unidecode)
 
 
 ### Data
 
 * Database history management through [Alembic](http://pypi.python.org/pypi/alembic)
-* Build transliteration dictionary for Korean last names
-* Collect more minutes (Updated crawler)
 * Refine politician address and district data
+    - ex: `경기 부천시원미구을` -> `경기도<Province> 부천시<Municipality> 원미구<Municipality> 을`
+* Collect more minutes (Updated crawler)
 
 ### Misc
 * [popong.com](http://popong.com)
