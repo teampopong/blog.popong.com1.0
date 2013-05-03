@@ -29,3 +29,5 @@ categories:
 {% img /images/polidic/3-1.png 300 %}
 {% img /images/polidic/3-2.png 300 %}
 {% img /images/polidic/3-3.png 300 %}
+### 2013-05-05 23:54
+{% img /images/polidic/6-1.png 300 %}
