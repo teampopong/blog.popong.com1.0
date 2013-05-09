@@ -16,7 +16,7 @@ description: Hello, world developers! The POPONG API is one step forward towards
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+#subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email: contact@popong.com
