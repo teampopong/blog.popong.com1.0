@@ -76,6 +76,13 @@ code {
   }
 }
 
+#github-ribbon {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1040;
+}
+
 @media (min-width: 980px) {
   #lang {
     margin-top: 15px;
