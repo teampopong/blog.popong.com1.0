@@ -83,6 +83,12 @@ code {
     z-index: 1040;
 }
 
+@media (max-width: 980px) {
+    #github-ribbon {
+        display: none;
+    }
+}
+
 @media (min-width: 980px) {
   #lang {
     margin-top: 15px;
