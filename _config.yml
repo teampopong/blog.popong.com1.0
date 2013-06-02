@@ -93,7 +93,7 @@ disqus_short_name: teampopong-ko
 disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-34495737-1
 
 # Facebook Like
 facebook_like: true
