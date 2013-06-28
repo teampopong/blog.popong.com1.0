@@ -1,8 +1,9 @@
 ---
 layout: post
 title: 긴~~~~~ 이름과 PostgreSQL text
+author: cornchz
 comments: true
-categories: [ko]
+categories: [ko, PostgreSQL]
 ---
 
 [Pokr](http://pokr.kr)가 아직 [Pokr](http://pokr.kr)란 이름을 가지지 못했던 호랑이 담배피던 시절, 팀포퐁은 1대에서 19대까지 모든 의안을 수집하고 데이터베이스에 넣는 작업을 하고 있었습니다.<!-- more -->
