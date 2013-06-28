@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 긴~~~~~ 이름과 PostgreSQL text
+title: 긴~~~~~ 의안 이름과 PostgreSQL text
 author: cornchz
 comments: true
 categories: [ko, PostgreSQL]
