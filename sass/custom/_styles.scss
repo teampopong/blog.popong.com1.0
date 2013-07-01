@@ -6,13 +6,6 @@ body {
   font-size: 14px;
   line-height: 23px;
 
-  a {
-    color: olivedrab;
-  }
-  a:hover {
-    color: #97ca00;
-  }
-
   #container {
     max-width: 900px; /*1170px;*/
     margin: auto;
@@ -238,6 +231,9 @@ div#pagination {
   background-color: #eeeeee;
   padding: 10px;
   border-radius: 1em;
+  a {
+    border-left-width: 1px;
+  }
 }
 
 #signature {
