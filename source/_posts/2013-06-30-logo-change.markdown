@@ -14,4 +14,5 @@ categories: [ko]
 
 정말 예쁘죠? ^_______^
 
+
 > 로고는 먼저 [페이스북 페이지](http://facebook.com/teampopong)와 [트위터](http://twitter.com/teampopong)에 적용하였고, [popong.com](http://popong.com)을 비롯해 다른 곳에는 단계적으로 적용할 예정입니다.
