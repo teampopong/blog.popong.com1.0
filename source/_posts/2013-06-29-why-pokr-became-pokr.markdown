@@ -8,7 +8,7 @@ categories: [ko]
 ---
 
 
-컴퓨터공학에서 가장 어려운 것이 두 가지 있다면 그것은 캐싱, 작명, 그리고 <a href="http://en.wikipedia.org/wiki/Off-by-one_error">off-by-one 에러</a>라고 하죠.
+컴퓨터공학에서 가장 어려운 것이 <s>세 가지</s> 두 가지 있다면 그것은 캐싱, 작명, 그리고 <a href="http://en.wikipedia.org/wiki/Off-by-one_error">off-by-one 에러</a>라고 하죠.
 
 > There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.
 
