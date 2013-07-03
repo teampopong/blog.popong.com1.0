@@ -23,8 +23,7 @@ categories: [ko, updates]
     * [404](http://pokr.kr/404)(페이지를 찾을 수 없습니다), 500(내부 에러) 페이지
 1. 즐겨찾는 의원 기능 임시 제거 <span class="muted">(더 업그레이드된 기능으로 다시 찾아올 예정입니다!)</span>
 1. 피드백 위젯을 [Barometer](http://getbarometer.com/)에서 [Uservoice](http://teampopong.uservoice.com)로 변경
-1. 트위터 [Pokrbot](http://twitter.com/pokrbot)!
-    * 새로 발의된 의안을 매일매일 트윗해 드립니다 :)
+1. 포커봇([@Pokrbot](http://twitter.com/pokrbot))이 새로 발의된 의안을 매일매일 트윗해 드립니다!
     <center>
     <blockquote class="twitter-tweet"><p>농림축산식품해양수산위원장이 &quot;어장관리법 일부개정법률안(대안)&quot;을 새로 발의하였습니다. <a href="http://t.co/8GptFCV2ms">http://t.co/8GptFCV2ms</a></p>&mdash; 포커봇 (@pokrbot) <a href="https://twitter.com/pokrbot/statuses/351937420788371456">July 2, 2013</a></blockquote>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
