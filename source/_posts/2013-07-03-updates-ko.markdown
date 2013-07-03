@@ -14,8 +14,8 @@ categories: [ko, updates]
 1. 정치인명사전에게 [포커(Pokr)](http://pokr.kr)라는 새 이름을 붙여줬습니다. 새 이름이 붙여진 사연은 [대한민국 정치인명사전이 포커로 다시 태어난 사연](http://blog.popong.com/2013/06/29/why-pokr-became-pokr/) 포스팅을 확인해 주세요!
 1. 네비게이션 기능 강화
     * 페이지와 정보 사이사이를 넘실넘실 타고 다닐 수 있게 되었습니다!
-        * 같은 [학교](http://pokr.kr/search?target=people&school_id=7006431), [지역](http://pokr.kr/region/25), [의안 상태](http://pokr.kr/search?target=bills&status_id=5)를 기준으로 모아볼 수 있습니다.
-        * *의원* → *정당* → *다른 의원* → *의안* → ... 
+        * 같은 [학교](http://pokr.kr/search?target=people&school_id=7006431), [지역](http://pokr.kr/region/25), [의안 상태](http://pokr.kr/search?target=bills&status_id=5) 등을 기준으로 모아볼 수 있습니다.
+        * 예) *의원* → *정당* → *다른 의원* → *의안* → ... 
     * 각 섹션에 [고유 URL](http://pokr.kr/person/195224#legislations) 부여
     * 페이지 계층 구조 표시[^4]<br>
         {% img /images/2013-07-03-breadcrumb.png %}
