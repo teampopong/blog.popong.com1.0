@@ -35,7 +35,7 @@ categories: [ko, updates]
     * [지역 목록 페이지](http://pokr.kr/region)
     * 의원 거주지<br>
         {% img /images/2013-07-03-map.png %}
-1. 정당 로고 표시
+1. 정당 로고 표시<br>
    {% img /images/2013-07-02-parties-en.png 600 %}
 
 #### 디자인
