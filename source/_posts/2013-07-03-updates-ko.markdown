@@ -78,7 +78,7 @@ categories: [ko, updates]
 * 국회의원과 정당 [코드북](github.com/teampopong/codebooks) 추가
 
 ### 기타
-* 팀포퐁의 가치에 공감하시는 분들이 [프로젝트를 후원](http://popong.com/about)해 주실 수 있는 방법이 생겼습니다! ([Gittip](https://www.gittip.com/teampopong/), [Paypal](https://www.paypal.com/kr/cgi-bin/webscr?cmd=_flow&SESSION=rJ-od7Disgs4qf2n18TXe6BPX0vh0lFcQIsZ0nsDaFF_uJV_W9iKGHMBOQC&dispatch=5885d80a13c0db1f8e263663d3faee8d4e181b3aff599f99a338772351021e7d))
+* 팀 포퐁의 [프로젝트를 후원](http://popong.com/about)해 주실 수 있는 방법이 생겼습니다! ([Gittip](https://www.gittip.com/teampopong/), [Paypal](https://www.paypal.com/kr/cgi-bin/webscr?cmd=_flow&SESSION=rJ-od7Disgs4qf2n18TXe6BPX0vh0lFcQIsZ0nsDaFF_uJV_W9iKGHMBOQC&dispatch=5885d80a13c0db1f8e263663d3faee8d4e181b3aff599f99a338772351021e7d))
 * [정치용어사전](http://popong.com/glossary)
 
 
