@@ -28,7 +28,7 @@ categories: [ko, updates]
 1. 피드백 위젯을 [Barometer](http://getbarometer.com/)에서 [Uservoice](http://teampopong.uservoice.com)로 변경[^5]
     * Barometer는 모바일 미지원과 한글 미지원이라는 단점이 있었고, Uservoice는 [공개적인 아이디어 포럼을 제공](https://teampopong.uservoice.com/forums/211529-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%EC%A0%9C%EC%95%88%ED%95%98%EA%B8%B0/filters/top)한다는 장점이 있었습니다.
 1. 포커봇([@Pokrbot](http://twitter.com/pokrbot))이 새로 발의된 의안을 매일매일 트윗해 드립니다!
-    * 일부러 의안을 찾아나서지 않아도, 자신의 관심 의안들을 편하게 받아볼 수 있는 세상이 오고 있습니다. 포커봇은 그 변화의 작은 시작점이라고 생각합니다. 더 멋진 모습으로 발전하기 위해 여러분의 많은 사랑과 피드백을 주세요 :)
+    * 일부러 의안을 찾아나서지 않아도, 자신의 관심 의안들을 편하게 받아볼 수 있는 세상이 오고 있습니다. 포커봇은 저희가 만드는 그 변화의 작은 시작점이라고 생각합니다. 더 멋진 모습으로 발전하기 위해 여러분의 많은 사랑과 피드백을 주세요 :)
     <center>
     <blockquote class="twitter-tweet"><p>농림축산식품해양수산위원장이 &quot;어장관리법 일부개정법률안(대안)&quot;을 새로 발의하였습니다. <a href="http://t.co/8GptFCV2ms">http://t.co/8GptFCV2ms</a></p>&mdash; 포커봇 (@pokrbot) <a href="https://twitter.com/pokrbot/statuses/351937420788371456">July 2, 2013</a></blockquote>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -44,17 +44,8 @@ categories: [ko, updates]
 1. 데이터를 테이블 형태로 표시
     * 데이터를 어떻게 하면 가장 눈에 들어오기 쉽게, 직관적으로 표시할 수 있을지 팀포퐁은 고민을 많이 했습니다. 
     * 모든 페이지에서 데이터를 일관적으로 테이블 형태로 표시함으로써 정보가 눈에 잘 들어오게 하였습니다.
-1. [새로운 로고!](/2013/06/30/logo-change/)<br>
-    <center>
-    <div style="display: inline-block; margin-right: 30px;">
-    {% img /images/2013-07-03-pokr-logo.png 100 %}
-    <div class="caption" style="margin-top: 12px; margin-bottom: 0;">포커(Pokr)</div>
-    </div>
-    <div style="display: inline-block;">
-    {% img /images/2013-06-30-popong-logo.png 100 %}
-    <div class="caption" style="margin-bottom: 0;">팀포퐁(Team POPONG)</div>
-    </div>
-    </center>
+1. 새로운 로고!<br>
+    {% img center /images/2013-07-03-pokr-logo.png 100 %}
 
 #### 상세 페이지 개선
 1. 의원 페이지
@@ -90,13 +81,13 @@ categories: [ko, updates]
 <br>
 폴 그레이엄은 ['The other road ahead'](http://paulgraham.com/road.html)라는 에세이에서 다음과 같은 말을 했습니다.
 
-> 비즈니스에 대해 알아야할 것은 두 가지 뿐이다: 유저들이 사랑할 법한 것을 만들고, 쓰는 돈보다 큰 돈을 벌어라. (...) 유저들이 사랑할 법한 것을 만드는 방법에 대해서는 몇 가지 팁을 주겠다. 깨끗하고 깔끔해서 너 스스로 사용하고 싶은 생각이 드는 것을 만들어라. 버젼 1.0은 최대한 빨리 시장에 내놓고, 유저들의 반응에 귀를 기울이면서 점차적으로 소프트웨어를 발전시키도록 해라.
+> 비즈니스에 대해 알아야할 것은 두 가지 뿐이다: 유저들이 사랑할만한 제품을 만들고, 쓰는 돈보다 큰 돈을 벌어라. (...) 유저들이 사랑할만한 제품을 만드는 법은 다음과 같다. 먼저, 당신 스스로 사용하고 싶은 명확하고 단순한 제품을 만들어라. 그렇게 버젼 1.0은 최대한 빨리 시장에 내놓고, 유저들의 반응에 귀를 기울이면서 점차적으로 소프트웨어를 발전시키도록 해라.
 > (원문: There are only two things you have to know about business: build something users love, and make more than you spend. (...) As for building something users love, here are some general tips. Start by making something clean and simple that you would want to use yourself. Get a version 1.0 out fast, then continue to improve the software, listening closely to users as you do.)
 
-[포커](http://pokr.kr)가 알파에서 베타로 승격되기는 했지만, 아직 부족한 점이 많습니다.
-하지만 폴 그레이엄의 말마따나 저희는 먼저 유저 여러분의 목소리를 듣는게 중요하다고 판단해서 서둘러 포커를 인큐베이터에서 꺼냈습니다.
+[포커](http://pokr.kr)가 베타로 세상에 나온지 약 20여 일, 아직 부족한 점이 많습니다.
+아직 개선할 수 있는 부분도, 추가하고 싶은 기능도 많았습니다. 하지만 폴 그레이엄의 말처럼 저희끼리만 머리를 맞대기보다는, 이제는 실제로 서비스를 사용할 유저들이 바라고 필요로 하는 것이 무엇인지 듣고, 함께 만들어나가는 것이 필요한 시점이라고 생각해서 포커를 인큐베이터에서 서둘러 꺼냈습니다.
 
-부족하지만 아직 가능성이 많은 신생아이니, [많은 코멘트, 아이디어, 그리고 격려...^^](http://teampopong.uservoice.com) 부탁드리겠습니다! 포커는 여러분의 응원을 먹고 성장합니다.
+포커는 아직 어떤 방향으로도 성장할 수 있는, 가능성이 많은 신생아입니다. 더 멋지게 성장할 수 있도록, [많은 비판, 조언, 그리고 격려...^^](http://teampopong.uservoice.com) 부탁드리겠습니다! 포커는 여러분의 응원을 먹고 성장합니다!
 
 [^1]: 웹사이트를 돌아다니며 내용을 자동으로 다운받는 프로그램
 [^2]: [PDFminer](http://www.unixuser.org/~euske/python/pdfminer/) 사용
