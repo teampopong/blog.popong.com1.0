@@ -266,8 +266,6 @@ div.MathJax_Display .MathJax {
 }
 
 blockquote {
-  font-family: "Georgia", Courier New, courier, sans-serif;
-  background: #efefef;
   padding: 5px 10px;
   border: solid 1px #ddd;
   margin: 15px;
@@ -275,10 +273,11 @@ blockquote {
   -moz-border-radius:6px;
   border-radius:6px;
   color:  #333;
-}
-
-blockquote > p {
-  font-size: 12px;
+  p {
+    font-color: #ccc;
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 #post-description {
@@ -441,4 +440,10 @@ footer {
     float: right;
     margin-top: -50px;
   }
+}
+
+.footnotes p {
+  font-size: 13px;
+  line-height: 15px;
+  margin: 0;
 }
