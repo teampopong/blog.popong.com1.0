@@ -1,56 +1,79 @@
 ---
 layout: post
-title: "그래서, 이미 옛날부터 있던 의안정보시스템보다 나은게 뭐죠?"
+title: "포커(Pokr)가 국회 의안정보시스템과 다른게 뭐죠?"
 date: 2013-07-19 12:00
 comments: true
 categories: [ko]
 author: echojuliett
 ---
 
-[포커(Pokr)](http://pokr.kr)를 세상에 내놓은지 약 40일이 되었습니다.<br>
-그 동안 [이메일](mailto:contact@popong.com), [트위터](http://twitter.com/teampopong), [페이스북](http://facebook.com/teampopong), [피드백 포럼](http://teampopong.uservoice.com) 등을 통해 국내외에서 수없이 많은 피드백과 관심과 응원을 받았고, 오픈한지 딱 한달이 되던 날, 라이크 수 1K도 찍었습니다. [^1] <!-- more -->
+어느덧 [포커(Pokr)](http://pokr.kr) 베타오픈을 한 지 40여 일이 지났습니다.<br>
+그 동안 [이메일](mailto:contact@popong.com), [트위터](http://twitter.com/teampopong), [페이스북](http://facebook.com/teampopong), [피드백 포럼](http://teampopong.uservoice.com) 등을 통해 국내외에서 수없이 많은 관심과 응원을 받았고, [페이스북 라이크도 1K를 달성했습니다](/2013/07/13/weve-reached-1k-pokr-likes/).
 
-오늘은 저희가 받은 피드백 중 재밌었던 한 가지 중요한 질문에 대한 답변을 공개적으로 드리도록 하겠습니다.
+오늘은 저희가 받은 많은 질문 중 의미있는 것을 한 가지를 꼽아, 공개답변을 드리도록 하겠습니다.<!-- more -->
 
-{% img center /images/2013-07-19-snulife.png %}
-<div class="caption">(출처: SNULIFE)</div>
+> 그래서...
+> 이미 옛날부터 있던 의안정보시스템보다 나은 게 뭐죠?
 
-아주 중요한 문제제기였다고 생각합니다.
-현재로서는 데이터가 단순나열되어 있어서 유저들이 국회의 의안정보시스템과 다르게 느끼지 못하지 않을까 하는 우려를 했는데, 그게 현실로 다가온 것입니다.
- 다르지 않다고 느낄 수 있다고 생각합니다. ^^ 이와 관련해서 저희의 생각을 간단히 말씀드리고, 저희의 차후 계획을 말씀드리면 저희가 생각하는 포커의 의미를 더 잘 전달할 수 있을거라 생각됩니다.
+<br>
+질문을 받고 다소 당황하기는 했지만, 아주 중요한 문제제기라고 생각합니다.<br>
+실제로 팀포퐁도 포커를 기획하면서 정확히 같은 고민을 항상 했습니다.<br>
+이와 관련해서 저희가 생각했던 포커의 차별점과, 차후 계획을 말씀드리면 저희가 의도했던 포커의 의미를 더 잘 전달할 수 있을거라 생각됩니다.
 
-### 포커(Pokr), 이것이 특별하다!
+### 포커, 이것이 특별하다!
 
-1. 데이터 간 링크 (Data interlinking)
+#### 1. 데이터 간 링크 (Data interlinking)
 
-    {% img center /images/2013-07-19-likms.png %}
-    <div class="caption">국회 의안정보시스템에 게시된 2013년 7월 19일자 <a href="http://likms.assembly.go.kr/bill/jsp/BillDetail.jsp?bill_id=PRC_T1D3K0Y7O1C9G1E1R4W2S0B4I6M4V5&list_url=/bill/jsp/LatestReceiptBill.jsp">원자력안전법 일부개정법률안</a></div>
+{% img center /images/2013-07-19-likms.png 600 %}
+<div class="caption">
+국회 의안정보시스템에 게시된 2013년 7월 19일자 원자력안전법 일부개정법률안
+(<a href="http://likms.assembly.go.kr/bill/jsp/BillDetail.jsp?bill_id=PRC_T1D3K0Y7O1C9G1E1R4W2S0B4I6M4V5&list_url=/bill/jsp/LatestReceiptBill.jsp">국회에서 보기</a>)
+</div>
 
-    지금 당장 국회의 의안정보시스템과 다른 점은 "데이터간 interlink"라고 생각합니다. 즉, 국회의원 페이지에서 그가 발의한 의안 페이지로 이동하고, 다시 의안 페이지에서 다른 의원 페이지로, 의원 소속 지역구 페이지로, 넘실넘실 이동할 수 있는 것입니다. (아직 의안정보시스템은 발의자에 대한 링크는 없습니다)
+지금 당장 국회의 의안정보시스템과 다른 점은 "데이터 간 링크"입니다. 
+아직까지 국회 홈페이지의 [의안정보시스템](http://likms.assembly.go.kr/bill/)에서 특정 의안에 대해 검색하면 위 화면캡쳐에서처럼 발의자 명단을 볼 수 있지만, 실제로 발의자가 어떤 사람인지 확인해볼 수 있는 링크는 없습니다. [^5] 만일 유권자들이 4년마다 한 번씩 바뀌는 300여 명 국회의원들의 이름만 보고도 발의한 사람이 누군지 알 수 있다면 문제가 되지 않겠지만, 그러기는 쉽지 않을 것이라고 생각합니다.
 
-2. 모바일 호환성 (Mobile compatibility)
+따라서 팀포퐁은 의안에 대한 발의자 데이터를 가져온 후, 현재 국회에 있는 의원들의 이름과 매칭(matching)하는 작업을 가장 먼저 했습니다.[^3]
+이 때문에 포커에서는, 국회의원 페이지에서 그가 발의한 의안 페이지로 이동하고, 다시 의안 페이지에서 다른 의원 페이지로, 의원 소속 지역구 페이지로, 넘실넘실 이동할 수 있는 것입니다. 
+
+{% img center /images/2013-07-19-pokr.png 600 %}
+<div class="caption">
+포커(Pokr)에 게시된 2013년 7월 19일자 원자력안전법 일부개정법률안
+(<a href="http://pokr.kr/bill/1906067">포커에서 보기</a>)
+</div>
+
+#### 2. 인물을 기준으로 자료 통합 (aggregation)
+국회 홈페이지의 [국회의원 현황](http://www.assembly.go.kr/renew10/mem/mem/mem_search.jsp) 메뉴에서도 특정 의원이 발의한 의안을 볼 수는 있습니다. 이것은 국회 모니터링 관점에서는 꼭 필요한 정보입니다. 하지만 차후, 선거 등에서 유권자가 투표권을 행사할 때는, 현재 국회에 대한 데이터만으로는 판단근거가 부족할 수 있습니다.[^2]
+
+그러한 관점에서 포커는,
+
+- 국회의원 선거에 출마한 후보자 전체에 대해 데이터를 병합하고
+- 당선자의 국회 활동 내역 전체를 통합하였습니다.
 
 
+#### 3. 그 외 
+그 외에도 포커는 아래와 같은 점들에 신경을 썼습니다.
 
-4. 데이터의 기계적 가독성 (Machine readable formats)
+- 모바일 호환성 보장 (Mobile compatibility)
+- 데이터에 기계적 가독성 부여 (Machine readable formats)
+- 의미있는 링크 주소 부여 (Descriptive URLs)
+- 정치 컨텐츠의 영문화 (i18n)[^1]
 
-3. 영문화 (i18n)
+### 이제 포커가 나아갈 방향
 
-### 포커가 나아갈 방향
+베타 오픈을 한 이후 많은 피드백을 통해, 포커가 나아갈 방향을 정리할 수 있게 되었습니다. 앞으로 다음의 세 가지 기능에 포커스해서 서비스를 발전시킬 예정입니다.
 
-아직 많이 부족해보일 수 있으나, 그만큼 어떠한 방향으로든 발전할 가능성을 가지고 있습니다.
-앞으로 포커가 나아갈 방향은 다음의 세 가지입니다.
-
-1. Data curation
-현재의 단순나열된 데이터를 보다 보기 좋게 curation 
-    - glossary를 통한 용어 설명
+1. 나열된 데이터를 의미있는 정보로 변환 (통계, 시각화 등)
 2. 3rd party app의 가능성을 낳기 위한 정치 데이터 API 제공 
-3. my page
-내가 관심 가지고 있는 의원, 의안, 주제에 대한 정보를 구독해볼 수 있는 my page 입니다. 
+3. 내가 관심 가지고 있는 의원, 의안, 주제에 대한 맞춤형 정보를 구독해볼 수 있는 my page 제공
 
-그런데 위의 생각들이 더 좋은 방향으로 가기 위해서는 지금 주신 것 같은 질문이 많이 필요합니다. 감사합니다. 그 외에도 비판과 칭찬, 더 멋진 서비스가 되기 위한 아이디어, 언제든 부탁드리겠습니다 ^^
+위의 기능들이 더 좋은 방향으로 발전하기 위해서는 유저분들의 많은 피드백이 필요합니다. 그러니 비판과 칭찬, 더 멋진 서비스가 되기 위한 아이디어, 아끼지 말고 많이 부탁드리겠습니다!
 
-### 참고자료
-http://www.slideshare.net/lucypark/open-linked-political-data-in
+<center>
+<a href="http://teampopong.uservoice.com"><div style="background: #EEE; padding: 10px; margin-top: 20px;">포커에 피드백 주러가기</div></a>
+</center>
 
-[^1]: 3일 전에 라이크 버튼의 data-href를 pokr.kr에서 facebook.com/politicsinkorea로 바꿔서 0으로 reset되었습니다만... ㅠㅠ 다시 많이 like 부탁드려요!
+[^1]: 대한민국 정치 데이터에 대한 국제적 접근성을 높이기 위함.
+[^2]: 이러한 상황에 대해 저희 팀에서는, "모든 재료가 완비되어 있으니 이제 맛있게 요리만 하면 된다"는 표현을 자주 사용합니다. 차후 이 재료의 질(ex: 동명이인 처리 문제)이나 적합성(ex: 기계적으로 처리할 수 없는, 상업적/폐쇄적 형태의 포맷 사용) 등에 대해서는 따로 포스팅 할 예정입니다.
+[^3]: [여기에서](https://github.com/teampopong/pokr/blob/master/scripts/insert_candidacies.py#L150) 관련 파이썬 코드를 보실 수 있습니다.
+[^5]: [국민 신문고](http://www.epeople.go.kr/)를 통해 국회사무처가 본 기능을 적용하도록 요구할 수 있습니다.
