@@ -1,1 +1,1 @@
-http://folketsting.dk/politikere/maja-panduro/1127
+http://folketsting.dk/politikere/maja-panduro/1127http://www.openingparliament.org/organizations
