@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Team POPONG]]></title>
+  <link href="http://teampopong.github.io/atom.xml" rel="self"/>
+  <link href="http://teampopong.github.io/"/>
+  <updated>2013-07-19T20:55:23+09:00</updated>
+  <id>http://teampopong.github.io/</id>
+  <author>
+    <name><![CDATA[teampopong]]></name>
+    <email><![CDATA[contact@popong.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[포커(Pokr)가 국회 의안정보시스템과 다른게 뭐죠?]]></title>
+    <link href="http://teampopong.github.io/2013/07/19/pokrs-contribution/"/>
+    <updated>2013-07-19T12:00:00+09:00</updated>
+    <id>http://teampopong.github.io/2013/07/19/pokrs-contribution</id>
+    <content type="html"><![CDATA[<p>어느덧 <a href="http://pokr.kr">포커(Pokr)</a> 베타오픈을 한 지 40여 일이 지났습니다.<br>
+그 동안 <a href="mailto:contact@popong.com">이메일</a>, <a href="http://twitter.com/teampopong">트위터</a>, <a href="http://facebook.com/teampopong">페이스북</a>, <a href="http://teampopong.uservoice.com">피드백 포럼</a> 등을 통해 국내외에서 수없이 많은 관심과 응원을 받았고, <a href="http://teampopong.github.io/2013/07/13/weve-reached-1k-pokr-likes/">페이스북 라이크도 1K를 달성했습니다</a>.</p>
+
+<p>오늘은 저희가 받은 많은 질문 중 의미있는 것을 한 가지를 꼽아, 공개답변을 드리도록 하겠습니다.<!-- more --></p>
+
+<blockquote><p>그래서&hellip;
+이미 옛날부터 있던 의안정보시스템보다 나은 게 뭐죠?</p></blockquote>
+
+<br>
+
+
+<p>질문을 받고 다소 당황하기는 했지만, 아주 중요한 문제제기라고 생각합니다.<br>
+실제로 팀포퐁도 포커를 기획하면서 정확히 같은 고민을 항상 했습니다.<br>
+이와 관련해서 저희가 생각했던 포커의 차별점과, 차후 계획을 말씀드리면 저희가 의도했던 포커의 의미를 더 잘 전달할 수 있을거라 생각됩니다.</p>
+
+<h3>포커, 이것이 특별하다!</h3>
+
+<h4>1. 데이터 간 유기적 연결성 (Data interlinking)</h4>
+
+<p><img class="center" src="http://teampopong.github.io/images/2013-07-19-likms.png" width="600"></p>
+
+<div class="caption">
+국회 의안정보시스템에 게시된 2013년 7월 19일자 원자력안전법 일부개정법률안
+(<a href="http://likms.assembly.go.kr/bill/jsp/BillDetail.jsp?bill_id=PRC_T1D3K0Y7O1C9G1E1R4W2S0B4I6M4V5&list_url=/bill/jsp/LatestReceiptBill.jsp">국회에서 보기</a>)
+</div>
+
+
+<p>당장 국회의 의안정보시스템과 다른 점은 &ldquo;데이터 간 링크&#8221;입니다.
+아직까지 국회 홈페이지의 <a href="http://likms.assembly.go.kr/bill/">의안정보시스템</a>에서 특정 의안에 대해 검색하면 위 화면캡쳐에서처럼 발의자 명단을 볼 수 있지만, 실제로 발의자가 어떤 사람인지 확인해볼 수 있는 링크는 없습니다. <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> 만일 유권자들이 4년마다 한 번씩 바뀌는 300여 명 국회의원들의 이름만 보고도 발의한 사람이 누군지 알 수 있다면 문제가 되지 않겠지만, 그러기는 쉽지 않을 것이라고 생각합니다.</p>
+
+<p>따라서 팀포퐁은 의안에 대한 발의자 데이터를 가져온 후, 현재 국회에 있는 의원들의 이름과 매칭(matching)하는 작업을 가장 먼저 했습니다.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>
+이 때문에 포커에서는, 국회의원 페이지에서 그가 발의한 의안 페이지로 이동하고, 다시 의안 페이지에서 다른 의원 페이지로, 의원 소속 지역구 페이지로, 넘실넘실 이동할 수 있는 것입니다.</p>
+
+<p><img class="center" src="http://teampopong.github.io/images/2013-07-19-pokr.png" width="600"></p>
+
+<div class="caption">
+포커(Pokr)에 게시된 2013년 7월 19일자 원자력안전법 일부개정법률안
+(<a href="http://pokr.kr/bill/1906067">포커에서 보기</a>)
+</div>
+
+
+<h4>2. 인물을 기준으로 자료 통합 (Data aggregation)</h4>
+
+<p>국회 모니터링, 즉 국회 활동을 지켜보고자 할 때는 특정 의원이 어떠한 의안을 발의하는지가 중요한 정보입니다.
+국회 홈페이지의 <a href="http://www.assembly.go.kr/renew10/mem/mem/mem_search.jsp">국회의원 현황</a> 메뉴에서도 의원들의 대표발의 내역을 열람해볼 수 있지만,
+현 19대 국회에 대한 데이터만 제공하고 있기 때문에 차후 선거 등에서 유권자가 투표권을 행사할 때 판단근거가 부족할 수 있습니다.<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></p>
+
+<p>그러한 관점에서 포커는,</p>
+
+<ul>
+<li>국회의원 선거에 출마한 후보자 전체에 대해 데이터를 병합하고</li>
+<li>당선자의 역대 국회 활동 내역 전체를 통합하고</li>
+<li>의원의 대표발의 내역 뿐 아니라 공동발의 내역도 열람할 수 있게 하였습니다.</li>
+</ul>
+
+
+<h4>3. 그 외</h4>
+
+<p>그 외에도 포커는 아래와 같은 점들에 신경을 썼습니다.</p>
+
+<ul>
+<li>모바일 호환성 보장 (Mobile compatibility)</li>
+<li>데이터에 기계적 가독성 부여 (Machine readable formats)</li>
+<li>의미있는 링크 주소 부여 (Descriptive URLs)</li>
+<li>정치 컨텐츠의 영문화 (i18n)<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></li>
+</ul>
+
+
+<h3>이제 포커가 나아갈 방향</h3>
+
+<p>베타 오픈을 한 이후 많은 피드백을 통해, 포커가 나아갈 방향을 정리할 수 있게 되었습니다. 앞으로 다음의 세 가지 기능에 포커스해서 서비스를 발전시킬 예정입니다.</p>
+
+<ol>
+<li>나열된 데이터를 의미있는 정보로 변환 (통계, 시각화 등)</li>
+<li>3rd party app의 가능성을 낳기 위한 정치 데이터 API 제공</li>
+<li>내가 관심 가지고 있는 의원, 의안, 주제에 대한 맞춤형 정보를 구독해볼 수 있는 my page 제공</li>
+</ol>
+
+
+<p>위의 기능들이 더 좋은 방향으로 발전하기 위해서는 유저분들의 많은 피드백이 필요합니다. 그러니 비판과 칭찬, 더 멋진 서비스가 되기 위한 아이디어, 아끼지 말고 많이 부탁드리겠습니다!</p>
+
+<center>
+<a href="http://teampopong.uservoice.com"><div style="background: #EEE; padding: 10px; margin-top: 20px;">포커에 피드백 주러가기</div></a>
+</center>
+
+
+
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p><a href="http://www.epeople.go.kr/">국민 신문고</a>를 통해 국회사무처가 본 기능을 적용하도록 요구할 수 있습니다.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p><a href="https://github.com/teampopong/pokr/blob/master/scripts/insert_candidacies.py#L150">여기에서</a> 관련 파이썬 코드를 보실 수 있습니다.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>이러한 상황에 대해 저희 팀에서는, &ldquo;모든 재료가 완비되어 있으니 이제 맛있게 요리만 하면 된다&#8221;는 표현을 자주 사용합니다. 차후 이 재료의 질(ex: 동명이인 처리 문제)이나 적합성(ex: 기계적으로 처리할 수 없는, 상업적/폐쇄적 형태의 포맷 사용) 등에 대해서는 따로 포스팅 할 예정입니다.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>대한민국 정치 데이터에 대한 국제적 접근성을 높이기 위함.<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[1K]]></title>
+    <link href="http://teampopong.github.io/2013/07/13/weve-reached-1k-pokr-likes/"/>
+    <updated>2013-07-13T16:23:00+09:00</updated>
+    <id>http://teampopong.github.io/2013/07/13/weve-reached-1k-pokr-likes</id>
+    <content type="html"><![CDATA[<p><a href="http://pokr.kr">포커(Pokr)</a>를 세상에 내놓은지 한 달.<br>
+페이스북 <code>좋아요</code> 개수 1K를 찍었습니다!<!-- more --></p>
+
+<p><img class="center" src="http://teampopong.github.io/images/2013-07-13-1k.png"></p>
+
+<p>지난 몇 달간 포커를 탄생시키기 위해 온 열의를 다 쏟은 개발팀에게는 가장 큰 선물이었습니다. 이 기쁨을 안고 정식 런칭을 해서, 천 명이 아니라 전국 수천만명의 잠재적 유저들이 유익하게 사용할 수 있는 서비스를 만들기 위해 노력하겠습니다.</p>
+
+<p>아직 부족한 베타 서비스임에도 불구하고 많은 관심과 응원을 주셔서 감사드립니다.<br>
+포커가 바람직한 방향으로 커갈 수 있게 앞으로도 <a href="http://teampopong.uservoice.com">피드백 포럼</a>을 통해 많은 피드백 부탁드리겠습니다!</p>
+
+<br>
+
+
+<hr>
+
+
+<p><code>2013-07-16 추가</code>:<br>
+좋아요 버튼의 <code>data-href</code>를 <code>pokr.kr</code>에서 <code>facebook.com/politicsinkorea</code>로 바꾸기로 결정해서 라이크 개수가 0으로 다시 초기화되었습니다. 다시 좋아요 버튼을 꾸~욱 눌러서 많은 분들이 포커의 소식을 접할 수 있게 해주세요! <small><a href="http://pokr.kr">&ndash;> &lsquo;좋아요&rsquo; 누르러 가기</a></small></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[피드백을 통해 함께 만들어가는 서비스]]></title>
+    <link href="http://teampopong.github.io/2013/07/10/feedback/"/>
+    <updated>2013-07-10T16:40:00+09:00</updated>
+    <id>http://teampopong.github.io/2013/07/10/feedback</id>
+    <content type="html"><![CDATA[<p>포퐁 친구들 안녕?
+오늘은 자랑글을 하나 써보려고 해요.<!-- more --></p>
+
+<p>여러분이 즐겁게 사용하고 계신 <a href="http://pokr.kr">포커(Pokr) &ndash; 대한민국 정치의 모든 것</a>은 UserVoice 라는 플러그인을 통해서 피드백을 받고 있답니다. 포커 서비스 왼쪽의 <strong>Feedback &amp; Support</strong> 버튼이나 <a href="https://teampopong.uservoice.com">포퐁 UserVoice 페이지</a>를 통해 아이디어를 남겨 주시거나 누군가 남겨놓은 아이디어를 추천해 주시면 저희가 읽고 서비스에 적용한답니다.<br>
+포퐁팀과 유저가 함께 만들어가는 서비스! 몹시 멋지지 않나요?!! 피드백을 남겨주시는 여러분은 이미 팀 포퐁의 일원이랍니다. :D</p>
+
+<p>그런데, 진짜 보기는 하는지? 울림 없는 메아리는 아닌지? 헛수고는 아닌지? 궁금하시다고요? 그러실 것 같아서 보여드립니다.<br>
+좋은 예) <a href="http://goo.gl/tePX7">&ldquo;이름 옆에 당명 또는 관련 색깔을 표시해 주세요&rdquo;</a></p>
+
+<p>익명의 유저께서, 국회의원 프로필 위에 마우스를 올렸을 때 정당명을 툴팁으로 보여주면 좋겠다는 의견을 남겨주셨습니다. 저희도 몹시 좋은 의견이라고 공감하였고, 3일이 채 지나기도 전에 바로 서비스에 적용하고 답글을 남겨드렸습니다.</p>
+
+<p><img class="center" src="http://teampopong.github.io/images/2013-07-10-feedback.png"></p>
+
+<p>정말 멋지고 퐌타스틱하지 않나요?<br>
+여러분도 의견을 남겨보세요. 저희가 번개같이 처리하고 감사의 댓글을 달아드리도록 하겠습니다.<br>
+좋은 아이디어이면서, 개발이 간단할수록 더욱 좋답니다. ^^ ㅋㅋ</p>
+
+<p>그럼 다음 시간에 다시 만나요~~~</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2013년 5, 6월 업데이트 내역]]></title>
+    <link href="http://teampopong.github.io/2013/07/03/updates-ko/"/>
+    <updated>2013-07-03T16:00:00+09:00</updated>
+    <id>http://teampopong.github.io/2013/07/03/updates-ko</id>
+    <content type="html"><![CDATA[<p>지난 두 달간, <a href="http://pokr.kr">포커(Pokr; POlitics in KoRea)</a>를 런치하기 위해 팀포퐁은 전에 없던 바쁜 시간을 보냈습니다.
+여러분께서 많은 관심과 피드백을 주신 덕분에 5, 6월은 저희에게 많은 것을 경험하고 배울 수 있었던 소중한 시간이었습니다.
+정말 감사드립니다^^<!-- more --><br>
+저희는 지난 두 달간 이런 일을 했답니다!</p>
+
+<h3><a href="http://pokr.kr">포커(Pokr)</a></h3>
+
+<ol>
+<li>정치인명사전에게 <a href="http://pokr.kr">포커(Pokr)</a>라는 새 이름을 붙여줬습니다. 새 이름이 붙여진 사연은 <a href="http://teampopong.github.io/2013/06/29/why-pokr-became-pokr/">대한민국 정치인명사전이 포커로 다시 태어난 사연</a> 포스팅을 확인해 주세요!</li>
+<li>네비게이션 기능 강화
+
+<ul>
+<li>페이지와 정보 사이사이를 넘실넘실 타고 다닐 수 있게 되었습니다!
+
+<ul>
+<li>같은 <a href="http://pokr.kr/search?target=people&amp;school_id=7006431">학교</a>, <a href="http://pokr.kr/region/25">지역</a>, <a href="http://pokr.kr/search?target=bills&amp;status_id=5">의안 상태</a> 등을 기준으로 모아볼 수 있습니다.</li>
+<li>예) <em>의원</em> → <em>정당</em> → <em>다른 의원</em> → <em>의안</em> → &hellip;</li>
+</ul>
+</li>
+<li>각 섹션에 <a href="http://pokr.kr/person/195224#legislations">고유 URL</a> 부여</li>
+<li>페이지 계층 구조 표시<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup><br>
+  <img src="http://teampopong.github.io/images/2013-07-03-breadcrumb.png"></li>
+<li>모바일 지원</li>
+<li><a href="http://pokr.kr/404">404</a>(페이지를 찾을 수 없습니다), 500(내부 에러) 페이지</li>
+<li>의원, 정당, 의안, 지역, 학교 <a href="http://pokr.kr/search?query=%EA%B2%BD%EA%B8%B0">통합검색</a></li>
+</ul>
+</li>
+<li>즐겨찾는 의원 기능 임시 제거 <span class="muted">(더 업그레이드된 기능으로 다시 찾아올 예정입니다!)</span></li>
+<li>피드백 위젯을 <a href="http://getbarometer.com/">Barometer</a>에서 <a href="http://teampopong.uservoice.com">Uservoice</a>로 변경<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>
+
+<ul>
+<li>Barometer는 모바일 미지원과 한글 미지원이라는 단점이 있었고, Uservoice는 <a href="https://teampopong.uservoice.com/forums/211529-%EC%95%84%EC%9D%B4%EB%94%94%EC%96%B4-%EC%A0%9C%EC%95%88%ED%95%98%EA%B8%B0/filters/top">공개적인 아이디어 포럼을 제공</a>한다는 장점이 있었습니다.</li>
+</ul>
+</li>
+<li>포커봇(<a href="http://twitter.com/pokrbot">@Pokrbot</a>)이 새로 발의된 의안을 매일매일 트윗해 드립니다!
+
+<ul>
+<li>일부러 의안을 찾아나서지 않아도, 자신의 관심 의안들을 편하게 받아볼 수 있는 세상이 오고 있습니다. 포커봇은 저희가 만드는 그 변화의 작은 시작점이라고 생각합니다. 더 멋진 모습으로 발전하기 위해 여러분의 많은 사랑과 피드백을 주세요 :)
+<center>
+<blockquote class="twitter-tweet"><p>농림축산식품해양수산위원장이 &quot;어장관리법 일부개정법률안(대안)&quot;을 새로 발의하였습니다. <a href="http://t.co/8GptFCV2ms"><a href="http://t.co/8GptFCV2ms">http://t.co/8GptFCV2ms</a></a></p>&mdash; 포커봇 (@pokrbot) <a href="https://twitter.com/pokrbot/statuses/351937420788371456">July 2, 2013</a></blockquote>
+<script async src="http://teampopong.github.io//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center></li>
+</ul>
+</li>
+<li>각 페이지에 <em>트윗하기</em>, <em>좋아요</em> 버튼 추가</li>
+<li>대한민국 지도 위젯: <a href="http://pokr.kr/region">지역 목록 페이지</a>, 의원 거주지</li>
+</ol>
+
+
+<h4>디자인</h4>
+
+<ol>
+<li>새로운 <a href="http://pokr.kr">메인 페이지</a> 및 서브메인(<a href="http://pokr.kr/person">의원</a>, <a href="http://pokr.kr/bill">의안</a>, <a href="http://pokr.kr/party">정당</a>, <a href="http://pokr.kr/region">지역</a>) 페이지</li>
+<li>1-Column 구조로 변경
+
+<ul>
+<li>미완성 기능들을 제거하는 과정에서 레이아웃도 좀 더 심플하게 바꾸기로 결정하였습니다.
+<img class="center" src="http://teampopong.github.io/images/2013-07-03-pokr.png" width="500"></li>
+</ul>
+</li>
+<li>데이터를 테이블 형태로 표시
+
+<ul>
+<li>데이터를 어떻게 하면 가장 눈에 들어오기 쉽게, 직관적으로 표시할 수 있을지 팀포퐁은 고민을 많이 했습니다.</li>
+<li>모든 페이지에서 데이터를 일관적으로 테이블 형태로 표시함으로써 정보가 눈에 잘 들어오게 하였습니다.</li>
+</ul>
+</li>
+</ol>
+
+
+<h4>상세 페이지 개선</h4>
+
+<ol>
+<li>의원 페이지
+
+<ul>
+<li>19대 선거 공약 데이터 추가</li>
+<li><a href="https://www.facebook.com/photo.php?fbid=484511471625413&amp;set=a.202832693126627.49042.187866061289957">정당 소속/변경 기록 표시</a>
+
+<ul>
+<li>선거 당시 출마 정당 기록만 표시되어 있으며, 임기 내 당적이 변경된 내용은 누락되어 있습니다.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>의안 페이지: 5월에 새로 구현
+
+<ul>
+<li>의안 처리 상태에 마우스를 가져가면 상세설명 표시<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>
+  <img src="http://teampopong.github.io/images/2013-07-02-bill-status-desc-en.png" width="600"></li>
+<li>의안 원문 PDF 링크</li>
+<li>발의자들의 정당 분포를 파이차트로 표시<br>
+예) <a href="http://pokr.kr/bill/1901176">고용상 연령차별금지 및 고령자고용촉진에 관한 법률 일부개정법률안</a></li>
+</ul>
+</li>
+</ol>
+
+
+<h3>데이터</h3>
+
+<ul>
+<li>의안 크롤러<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup>
+
+<ul>
+<li>의안 원문 PDF에서 텍스트 추출<sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup></li>
+<li>의안 원문에서 대표 키워드 추출<sup id="fnref:6"><a href="#fn:6" rel="footnote">6</a></sup></li>
+</ul>
+</li>
+<li>중복정당 처리
+
+<ul>
+<li>이름이 같은, 서로 다른 정당 분리: 한나라당 (<a href="http://pokr.kr/party/61">현現 새누리당</a>, <a href="http://pokr.kr/party/195">전前 영남신당자유평화당</a>)</li>
+<li>다른 정당이라고 판단되지만, 불확실한 경우 경고 문구 표시: <a href="http://pokr.kr/party/119">청년당</a> 외 다수</li>
+</ul>
+</li>
+<li>검색어 로깅 (logging)</li>
+<li><a href="http://info.nec.go.kr/main/showDocument.xhtml?topMenuId=CP&amp;electionId=0020130424">2013년 상반기 보궐선거 데이터</a> 추가 반영</li>
+<li>국회의원과 정당 <a href="github.com/teampopong/codebooks">코드북</a> 추가</li>
+<li><a href="http://rokps.or.kr">대한민국 헌정회</a>에서 의원 사진 추가 수집</li>
+</ul>
+
+
+<h3>기타</h3>
+
+<ul>
+<li>팀 포퐁의 <a href="http://popong.com/about">프로젝트를 후원</a>해 주실 수 있는 방법이 생겼습니다! (<a href="https://www.gittip.com/teampopong/">Gittip</a>, <a href="https://www.paypal.com/kr/cgi-bin/webscr?cmd=_flow&amp;SESSION=rJ-od7Disgs4qf2n18TXe6BPX0vh0lFcQIsZ0nsDaFF_uJV_W9iKGHMBOQC&amp;dispatch=5885d80a13c0db1f8e263663d3faee8d4e181b3aff599f99a338772351021e7d">Paypal</a>)</li>
+<li><a href="http://popong.com/glossary">정치용어사전</a> 구축</li>
+</ul>
+
+
+<br>
+
+
+<p>폴 그레이엄은 <a href="http://paulgraham.com/road.html">&lsquo;The other road ahead&rsquo;</a>라는 에세이에서 다음과 같은 말을 했습니다.</p>
+
+<blockquote><p>비즈니스에 대해 알아야할 것은 두 가지 뿐이다: 유저들이 사랑할만한 제품을 만들고, 쓰는 돈보다 큰 돈을 벌어라. (&hellip;) 유저들이 사랑할만한 제품을 만드는 법은 다음과 같다. 먼저, 당신 스스로 사용하고 싶은 명확하고 단순한 제품을 만들어라. 그렇게 버젼 1.0은 최대한 빨리 시장에 내놓고, 유저들의 반응에 귀를 기울이면서 점차적으로 소프트웨어를 발전시키도록 해라.
+(원문: There are only two things you have to know about business: build something users love, and make more than you spend. (&hellip;) As for building something users love, here are some general tips. Start by making something clean and simple that you would want to use yourself. Get a version 1.0 out fast, then continue to improve the software, listening closely to users as you do.)</p></blockquote>
+
+<p><a href="http://pokr.kr">포커</a>가 베타로 세상에 나온지 약 20여 일, 아직 부족한 점이 많습니다.
+아직 개선할 수 있는 부분도, 추가하고 싶은 기능도 많았습니다. 하지만 폴 그레이엄의 말처럼 저희끼리만 머리를 맞대기보다는, 이제는 실제로 서비스를 사용할 유저들이 바라고 필요로 하는 것이 무엇인지 듣고, 함께 만들어나가는 것이 필요한 시점이라고 생각해서 포커를 인큐베이터에서 서둘러 꺼냈습니다.</p>
+
+<p>포커는 아직 어떤 방향으로도 성장할 수 있는, 가능성이 많은 신생아입니다. 더 멋지게 성장할 수 있도록, <a href="http://teampopong.uservoice.com">많은 비판, 조언, 그리고 격려&hellip;^^</a> 부탁드리겠습니다! 포커는 여러분의 응원을 먹고 성장합니다!</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p><a href="http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices-2/">Breadcrumb</a>이라고 합니다.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>아직 <a href="http://pokr.kr">영문 포커</a>에서는 Barometer를 사용합니다.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p><strong>정치를 모두가 쉽게</strong> 이해할 수 있도록 만드는 것은 팀포퐁의 중요한 철학입니다.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>웹사이트를 돌아다니며 내용을 자동으로 다운받는 프로그램<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+<li id="fn:5">
+<p><a href="http://www.unixuser.org/~euske/python/pdfminer/">PDFminer</a> 사용<a href="#fnref:5" rev="footnote">&#8617;</a></p></li>
+<li id="fn:6">
+<p><a href="https://github.com/haven-jeon/KoNLP">KoNLP</a>의 명사 추출기 사용<a href="#fnref:6" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Updates (May., Jun. 2013)]]></title>
+    <link href="http://teampopong.github.io/2013/07/02/updates-en/"/>
+    <updated>2013-07-02T14:40:00+09:00</updated>
+    <id>http://teampopong.github.io/2013/07/02/updates-en</id>
+    <content type="html"><![CDATA[<p>During the last two months, <a href="http://popong.com">Team POPONG</a> has experienced something very fascinating. We&rsquo;ve beta launched our main service <a href="http://pokr.kr">Pokr</a>, and people are getting more and more interested in it. We&rsquo;re getting lots of feedback, and a whole bunch of &lsquo;first-time&rsquo; experiences.<!-- more --></p>
+
+<h3><a href="http://pokr.kr">Pokr</a></h3>
+
+<ol>
+<li>Renamed main service!
+
+<ul>
+<li>We&rsquo;ve renamed our main service from &lsquo;Korean Politician Dictionary(polidic)&rsquo; to <a href="http://pokr.kr">&lsquo;Pokr&rsquo;</a> &mdash; which shares the pronounciation with the card game &lsquo;Poker&rsquo;. Pokr represents &lsquo;Politics in Korea&rsquo;.</li>
+</ul>
+</li>
+<li>Linked more attributes
+
+<ul>
+<li>Schools, region names, bill statuses are now aggregated by their values.</li>
+<li>Ex: <a href="http://en.pokr.kr/region/11">Seoul</a></li>
+</ul>
+</li>
+<li>Added some functions for better navigation
+
+<ul>
+<li>Added permalinks to all headers</li>
+<li>Pagination (rather than showing whole lists)</li>
+<li>&lsquo;Show more&rsquo; buttons (rather than showing whole lists)</li>
+<li>Breadcrumbs</li>
+<li>Mobile compatibility</li>
+<li>Added <a href="http://pokr.kr/404">404</a>, 500 page</li>
+</ul>
+</li>
+<li>Temporarily removed favorites function (will be back in the future!)</li>
+<li>Moved Korean feedback machine from <a href="http://getbarometer.com/">Barometer</a> to <a href="http://teampopong.uservoice.com">Uservoice</a> (The English page still uses Barometer)</li>
+<li>Launched <a href="http://twitter.com/pokrbot">Pokrbot</a>!
+
+<ul>
+<li>Which Tweets new bills in realtime
+<center>
+<blockquote class="twitter-tweet"><p>농림축산식품해양수산위원장이 &quot;어장관리법 일부개정법률안(대안)&quot;을 새로 발의하였습니다. <a href="http://t.co/8GptFCV2ms"><a href="http://t.co/8GptFCV2ms">http://t.co/8GptFCV2ms</a></a></p>&mdash; 포커봇 (@pokrbot) <a href="https://twitter.com/pokrbot/statuses/351937420788371456">July 2, 2013</a></blockquote>
+<script async src="http://teampopong.github.io//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center></li>
+</ul>
+</li>
+<li>Improved search
+
+<ul>
+<li>Search people (by both English, Korean names), bills, regions, and schools.</li>
+</ul>
+</li>
+<li>Added Tweet, Facebook like buttons for all pages</li>
+<li>Created a Korean map widget
+
+<ul>
+<li>Added to <a href="http://pokr.kr/region">region submain page</a></li>
+<li>Displayed residential regions for politicians</li>
+</ul>
+</li>
+</ol>
+
+
+<h4>Design</h4>
+
+<ol>
+<li>Major redesign in main page &amp; submain pages</li>
+<li>Changed to one-column structure</li>
+<li>Displayed most data fields in tables</li>
+<li>Changed logo</li>
+</ol>
+
+
+<h4>Page upgrades</h4>
+
+<ol>
+<li>Person pages
+
+<ul>
+<li>Added election pledges for the 19th National Assembly Election.</li>
+<li>Added more profile images from <a href="http://rokps.or.kr">ROKPS</a></li>
+<li>Displayed party affiliation history for each person
+
+<ul>
+<li>Ex: <a href="http://en.pokr.kr/person/19481130#profile">Lee, In-Je</a><br>
+  <img class="center" src="http://teampopong.github.io/images/2013-07-02-lee-en.png" width="400"></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Bill pages
+
+<ul>
+<li>Added tooltips to bill status descriptions
+  <img class="center" src="http://teampopong.github.io/images/2013-07-02-bill-status-desc-en.png" width="600">
+
+<ul>
+<li>Because Team POPONG believes in <em>easier</em> politics.</li>
+<li>This feature is currently only served in Korean, however, we&rsquo;re planning to extend tooltips to English.</li>
+<li><a href="http://popong.com/glossary">POPONG glossary</a> is being built for such purposes.</li>
+</ul>
+</li>
+<li>Linked original PDF documents</li>
+<li>Displayed party distribution of cosponsors</li>
+<li>Ex: <a href="http://en.pokr.kr/bill/1901176">Amendment on the Anti-discrimination Law</a></li>
+</ul>
+</li>
+<li>Party pages
+
+<ul>
+<li>Added party logos
+  <img class="center" src="http://teampopong.github.io/images/2013-07-02-parties-en.png" width="600"></li>
+</ul>
+</li>
+</ol>
+
+
+<h3>Data</h3>
+
+<ul>
+<li>Implemented a bill online crawler
+
+<ul>
+<li>Parsed bill PDFs to raw text using <a href="http://www.unixuser.org/~euske/python/pdfminer/">PDFminer</a></li>
+<li>Extracted keywords using <a href="https://github.com/haven-jeon/KoNLP">KoNLP</a>&rsquo;s noun extractor</li>
+</ul>
+</li>
+<li>Separated the parties w/ same name
+
+<ul>
+<li>Hannara party (<a href="http://pokr.kr/party/61">1</a>, <a href="http://pokr.kr/party/195">2</a>)</li>
+</ul>
+</li>
+<li>Started logging queries</li>
+<li>Inserted the most recent by-election data</li>
+<li>Updated party and people <a href="github.com/teampopong/codebooks">codebooks</a></li>
+</ul>
+
+
+<h3>Others</h3>
+
+<ul>
+<li>Added donations <a href="https://www.gittip.com/teampopong/">Gittip</a>, <a href="https://www.paypal.com/kr/cgi-bin/webscr?cmd=_flow&amp;SESSION=rJ-od7Disgs4qf2n18TXe6BPX0vh0lFcQIsZ0nsDaFF_uJV_W9iKGHMBOQC&amp;dispatch=5885d80a13c0db1f8e263663d3faee8d4e181b3aff599f99a338772351021e7d">Paypal</a> widgets to <a href="http://popong.com">popong.com</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[팀포퐁의 로고가 바뀌었어요!]]></title>
+    <link href="http://teampopong.github.io/2013/06/30/logo-change/"/>
+    <updated>2013-06-30T02:54:00+09:00</updated>
+    <id>http://teampopong.github.io/2013/06/30/logo-change</id>
+    <content type="html"><![CDATA[<p><img src="http://teampopong.github.io/images/2013-06-30-popong-logo.png"><!-- more --></p>
+
+<p>&lsquo;P&rsquo; 모양의 도형들이 퐁퐁 솟아나고 있어요.<br>
+다채롭고 즐거운 아이디어가 퐁!퐁!퐁! 솟아나는 활기찬 집단, 팀포퐁을 상징하도록 이번에 새로 디자인해보았습니다 :D</p>
+
+<p>정말 예쁘죠? ^_______^</p>
+
+<blockquote><p>로고는 먼저 <a href="http://facebook.com/teampopong">페이스북 페이지</a>와 <a href="http://twitter.com/teampopong">트위터</a>에 적용하였고, <a href="http://popong.com">popong.com</a>을 비롯해 다른 곳에는 단계적으로 적용할 예정입니다.</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[대한민국 정치인명사전이 포커로 다시 태어난 사연]]></title>
+    <link href="http://teampopong.github.io/2013/06/29/why-pokr-became-pokr/"/>
+    <updated>2013-06-29T11:40:00+09:00</updated>
+    <id>http://teampopong.github.io/2013/06/29/why-pokr-became-pokr</id>
+    <content type="html"><![CDATA[<p>컴퓨터공학에서 가장 어려운 것이 <s>세 가지</s> 두 가지 있다면 그것은 캐싱, 작명, 그리고 <a href="http://en.wikipedia.org/wiki/Off-by-one_error">off-by-one 에러</a>라고 하죠.</p>
+
+<blockquote><p>There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.</p></blockquote>
+
+<p>팀포퐁은 그 중에서 작명에 대한 고민을 많이 했는데요, 오늘 그와 관련된  이야기 하나를 공유해볼까 합니다.<!-- more --></p>
+
+<p>얼마 전 &ldquo;대한민국 정치인명사전&#8221;이 알파 딱지를 떼고 베타로 승격(!)되면서 <a href="http://pokr.kr">&ldquo;포커(Pokr) &ndash; 대한민국 정치의 모든 것&rdquo;</a>이라는 새로운 이름을 가지게 되었습니다.
+그런데 사실 &lsquo;포커&#8217;를 &#8216;포커&#8217;라고 부를 수 있게 되기까지는 많은 의견이 오가야 했습니다.</p>
+
+<center>
+<img src="http://teampopong.github.io/images/2013-06-29-polidic.png" width="150">
+<i class="icon-arrow-right"></i>
+<img src="http://teampopong.github.io/images/2013-06-29-pokr.png" width="150">
+</center>
+
+
+<div class="caption">대한민국 정치인명사전에서 포커로</div>
+
+
+<h3>서비스명을 무엇으로 할 것인가?</h3>
+
+<p>애초에 포커는 &lsquo;plan-pithy&#8217;라는 코드네임으로 시작되었습니다.
+&#8216;Pithy&#8217;는 <a href="http://dictionary.reference.com/browse/pithy">&lsquo;간결하지만 함축적인&rsquo;</a>이라는 뜻을 가지고 있어서 포커의 철학을 표현하기에 충분했습니다.
+이후 포커의 알파 버젼을 내놓으면서 서비스명에 대한 이슈가 본격적으로 제기되었는데, 당시에는 기획안을 가장 직관적으로 나타내는 &#8216;대한민국 정치인명사전&#8217;이라는 이름을 고민 없이 채택할 수 있었죠.</p>
+
+<p>그러다가 2013년 6월 10일, 포커의 베타 런칭을 앞두고 팀포퐁은 큰 고민에 빠졌습니다.
+애초에 알파 버젼은 인물을 중심으로 기획했는데, 서비스를 개발하는 과정에서 의안과 정당, 지역의 중요성을 인식하게 되면서 &lsquo;정치인&#8217;만을 다루는 서비스에서 &#8216;대한민국 정치의 모든 것&#8217;을 다루는 서비스로 범위가 확장되었기 때문입니다.
+따라서 &#8216;대한민국 정치인명사전&#8217;이라는 이름에는 아래의 문제들이 있다고 판단했습니다.</p>
+
+<ul>
+<li>서비스를 &lsquo;정치인&#8217;에 국한시킨다는 문제
+
+<ul>
+<li>&lsquo;정치인&#8217;은 국회의원까지인가, 고위공무원까지인가, 또는 국민 모두가 정치인일 수 있는가? (표현의 모호성)</li>
+<li>의안, 정당 등이 포함되는가? (의미의 협의성)</li>
+</ul>
+</li>
+<li>서비스를 &lsquo;사전&#8217;에 국한시킨다는 문제
+
+<ul>
+<li>차후 정치인 비교 기능이 생긴다면<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> &lsquo;사전&#8217;이라는 표현이 적합할까?</li>
+</ul>
+</li>
+</ul>
+
+
+<p>그래서 몇 가지 대안을 생각해보았습니다.<br>
+정치에 대해 궁금한 것이 있을 때 언제든 찾아볼 수 있다는 의미의 <strong>정치용어사전(Political Glossary)</strong>, 정치 백과라는 의미의 <strong>폴리피디아(Polipedia)</strong>, 정치 사전이라는 의미의 <strong>폴리딕(Polidic)</strong>, 그리고 대한민국 정치에 관한 모든 것을 담았다(politics in Korea)는 의미의 <strong>포커(Pokr)</strong>&hellip; <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
+
+<p>다양한 아이디어 중에서 단연 눈에 띄는 이름은 &lsquo;포커&#8217;였습니다.
+하지만 우려의 목소리도 있었는데요&hellip;</p>
+
+<table class="table">
+    <tr>
+        <th style="width: 10%;"></th>
+        <th style="width: 45%;">포커, 정말 좋다!</th>
+        <th style="width: 45%;">포커, 좀 걱정된다&#8230;</th>
+    </tr>
+    <tr>
+        <td>발음</td>
+        <td>이미 존재하는 어휘 &#8216;poker&#8217;와 동음이의어기 때문에 사람들의 기억에 잘 각인될 수 있을 것이다.</td>
+        <td>막상 &#8220;포커&#8221;가 아니라 돼지고기(pork)로 읽히면 어쩌지&#8230;?</td>
+    </tr>
+    <tr>
+        <td>의미</td>
+        <td>Politics in Korea는 정치 전반을 포괄하는 이름이고, 동음이의어인 poker의 의미를 살린다면 gamification을 통해 정치를 보다 재미있게 만들어 볼 수 있다.</td>
+        <td>Poker와 동음이의어이기 때문에 오히려 정치를 가볍게 여긴다는 인식이 생길 수 있고, 디자인이나 컨셉에 제약이 생길 수 있다.</td>
+    </tr>
+    <tr>
+        <td>기타</td>
+        <td>URL이 짧다!</td>
+        <td>&#8230;</td>
+    </tr>
+</table>
+
+
+<p>단점들이 존재하지만, 더 큰 장점들이 있다고 판단하여 팀포퐁은 &lsquo;포커&#8217;를 최종 서비스명으로 정하게 되었습니다.
+팀포퐁은 &#8216;포커&#8217;가:</p>
+
+<ul>
+<li>&lsquo;대한민국 정치인명사전&#8217;이라는 이름이 내재하는 단점들을 극복함과 동시에 (확장성)</li>
+<li>장난스러움이(puckish) 친근함을 느끼게 하고<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> (down to earth)</li>
+<li>&lsquo;대한민국 정치인명사전&#8217;에 비해 전세계 누구나 외우기 쉬운 이름 (globalization이 용이)</li>
+</ul>
+
+
+<p>이라고 생각합니다. 어떤가요?
+지금은 포커라는 이름 대신 &lsquo;대한민국 정치의 모든 것&#8217;이나 &#8216;Politics in Korea&#8217;로 기억하시는 분들도 있습니다만 &#8216;포커&#8217;라는 이름도 참 사랑스럽지 않나요?^^</p>
+
+<p>대한민국 정치의 모든 것을 담고자하는  포퐁의 포커, 꼭 기억해주시고 많이 이용해주세요~</p>
+
+<blockquote><p><span style="line-height: 3em;"><em>TLDR;</em></span><br>
+<strong>포풍</strong>이 아니라 <strong>포퐁</strong>,<br>
+<strong>포크</strong>가 아니고 <strong>포커</strong>입니다! ㅋㅋ</p></blockquote>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>네, 언제가 될지는 모르지만 계획하고는 있습니다 ^^;<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>그 외에 &lsquo;roster&rsquo;, &lsquo;whoswho&rsquo; 등의 아이디어도 있었지만, &lsquo;대한민국 정치인명사전&#8217;과 마찬가지로 정치인만을 대상으로 하는 이름이라 폐기되었습니다.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>그러나 디자인의 가능성을 제약하지 않기 위해 동음이의어인 poker의 컨셉이나 gamification은 사용하지 않기로 했습니다.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[긴~~~~~ 의안 이름과 PostgreSQL text]]></title>
+    <link href="http://teampopong.github.io/2013/06/28/long-bill-names-and-postgresql-text/"/>
+    <updated>2013-06-28T00:00:00+09:00</updated>
+    <id>http://teampopong.github.io/2013/06/28/long-bill-names-and-postgresql-text</id>
+    <content type="html"><![CDATA[<p><a href="http://pokr.kr">포커(Pokr)</a>가 아직 포커란 이름을 가지지 못했던 호랑이 담배피던 시절, 팀포퐁은 1대에서 19대까지 모든 의안을 수집하고 데이터베이스에 넣는 작업을 하고 있었습니다.<!-- more -->
+의안 한두개 테스트해 봤을 때 아무 문제(<img src="http://teampopong.github.io/images/icon-bug.png">) 없는 거 같아 DB에 의안을 입력시키는 스크립트를 돌려두고 맘 편히 잠자리에 들었는데&hellip; 역시 한 번에 <img src="http://teampopong.github.io/images/icon-bug.png"> 없이 돌아가는 프로그램은 없죠&hellip;</p>
+
+<p><code>"대한민국 정부와 러시아연방 정부 간의 외기권의 탐색 및 평화적 목적의 이용 분야에서의 협력과 관련된 기술보호에 관한 협정 및 2006년 10월 17일의 대한민국 정부와 러시아연방 정부 간의 외기권의 탐색 및 평화적 목적의 이용 분야에서의 협력과 관련된 기술보호에 관한 협정에 관한 의정서 비준동의안"</code></p>
+
+<p>17대 국회에서 발의된 의안 하나가 스크립트를 깨뜨렸네요. <strike>역시 한 번에 돌아가는 프로그램은 없죠.</strike></p>
+
+<p>처음 작성된 DB 구조(Schema)에서는 의안의 이름이 길어봐야 150글자 이내일 거라고 가정하고 <code>Unicode(150)</code> 타입을 사용했는데, 무려 <strong>166 글자</strong>짜리 의안이 있었던 겁니다. 데이터를 먼저 탐색해 봤어야 하는데, 제 잘못이죠.
+그래서 혹시 더 긴 이름이 있나 찾아봤습니다.</p>
+
+<p><code>"1966년7월9일서명된대한민국과아메리카합중국간의상호방위조약제4조에의한시설과구역및대한민국에서의합중국군대의지위에관한협정개정협정,1966년7월9일서명된대한민국과아메리카합중국간의상호방위조약제4조에의한시설과구역및대한민국에서의합중국군대의지위에관한협정의개정합의의사록및대한민국과아메리카합중국간의상호방위조약제4조에의한시설과구역및대한민국에서의합중국군대의지위에관한협정과관련합의의사록에관한양해사항비준동의안"</code></p>
+
+<p>역시나 더 긴 이름의 의안이 있네요. 띄어쓰기 없이 <strong>214 글자</strong>라니!
+아무튼 그래서 의안 제목 필드의 길이를 얼마나 늘려줘야 하는가&hellip;</p>
+
+<p>&hellip; 고민할 필요가 없습니다.</p>
+
+<p>포커는 훌륭한 오픈소스 DBMS, <a href="http://www.postgresql.org/">PostgreSQL</a>을 스토리지 백엔드로 사용하고 있는데, <a href="http://www.postgresql.org/">PostgreSQL</a>의 문자열 타입들은 다음과 같은 특성을 가지고 있습니다.</p>
+
+<pre><code>Tip: There is no performance difference among these three types(text, varchar, char), apart from increased storage space when using the blank-padded type, and a few extra CPU cycles to check the length when storing into a length-constrained column. While character(n) has performance advantages in some other database systems, there is no such advantage in PostgreSQL; in fact character(n) is usually the slowest of the three because of its additional storage costs. In most situations text or character varying should be used instead.
+</code></pre>
+
+<p>요약하면:</p>
+
+<pre><code>text, varchar, char 타입에 성능 차이는 없다. 몇몇 DBMS에선 char가 더 빠르기도 하나 PostgreSQL에선 그렇지 않으며, 오히려 저장 공간을 많이 사용하기 때문에 대개는 더 느리곤 하다.
+그러니 text나 varchar를 쓰세요.
+</code></pre>
+
+<p>게다가 <a href="http://www.postgresql.org/">PostgreSQL</a>의 <em>text</em> 필드는 충분히 넉넉해서(up to 1GB) 많은 경우엔 큰 고민 없이 사용해도 됩니다.
+그러니 혹시나 <a href="http://www.postgresql.org/">PostgreSQL</a>을 쓰시는 분이 있다면 <em>text</em> 필드를 애용하세요!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Updates (Mar., Apr. 2013)]]></title>
+    <link href="http://teampopong.github.io/2013/04/27/updates-en/"/>
+    <updated>2013-04-27T18:24:00+09:00</updated>
+    <id>http://teampopong.github.io/2013/04/27/updates-en</id>
+    <content type="html"><![CDATA[<p>In the last two months, Team POPONG did the followings.</p>
+
+<!-- more -->
+
+
+<h3>Politician Dictionary</h3>
+
+<ul>
+<li><p>Layout renewal (in progress): Attempted to change from a 2-column to 3-column layout, but decided to go back to 2 columns</p>
+
+<p>  <img src="http://teampopong.github.io/images/2013-04-27-before.png" width="350"> <img src="http://teampopong.github.io/images/2013-04-27-after.png" width="350"></p></li>
+<li>Autocomplete(<a href="http://twitter.github.io/typeahead.js/">typeahead</a>) in search box</li>
+<li>Add feature to save favorite politicians to cart</li>
+<li>Display more personal information of politicians
+
+<ul>
+<li>district, job, education, experience, address</li>
+<li>Separate timeline and trends into new tabs</li>
+</ul>
+</li>
+<li>Test GIN(Generalized Inverted Index) index + trigram module: sequential search was faster because the dataset is too small</li>
+<li>Search by political party affiliation</li>
+<li>Improve transliteration using <a href="https://pypi.python.org/pypi/Unidecode">Unidecode</a></li>
+</ul>
+
+
+<h3>Data</h3>
+
+<ul>
+<li>Database history management through <a href="http://pypi.python.org/pypi/alembic">Alembic</a></li>
+<li>Refine politician address and district data
+
+<ul>
+<li>ex: <code>경기 부천시원미구을</code> &ndash;> <code>경기도&lt;Province&gt; 부천시&lt;Municipality&gt; 원미구&lt;Municipality&gt; 을</code></li>
+</ul>
+</li>
+<li>Collect more minutes (Updated crawler)</li>
+</ul>
+
+
+<h3>Misc</h3>
+
+<ul>
+<li><a href="http://popong.com">popong.com</a>
+
+<ul>
+<li>Embed <a href="http://dev.twitter.com/docs/follow-button">Twitter</a>, <a href="http://developers.facebook.com/docs/reference/plugins/like/">Facebook</a> buttons</li>
+<li>Test <a href="https://travis-ci.org/teampopong/popong.com">Travis CI</a></li>
+</ul>
+</li>
+<li>Migrate internal repositories to <a href="http://github.com/teampopong">GitHub</a>: Gradually turning to open-source :)
+
+<ul>
+<li>Websites: <a href="https://github.com/teampopong/popong.com">popong.com</a>, <a href="https://github.com/teampopong/teampopong.github.com">blog.popong.com</a>, <a href="https://github.com/teampopong/iamseoulmayor">popong.com/iamseoulmayor</a>, <a href="https://github.com/teampopong/nanow">labs.popong.com/codenamu</a></li>
+<li>Data: <a href="https://github.com/teampopong/southkorea-maps">South Korean maps</a>, <a href="https://github.com/teampopong/southkorea-population">South Korean population</a></li>
+<li>Codes: <a href="https://github.com/teampopong/crawlers">Crawlers</a>, <a href="https://github.com/teampopong/nlp">NLP</a></li>
+</ul>
+</li>
+<li>Participated in <a href="http://onoffmix.com/event/12520">Open Data Day</a> hosted by <a href="http://www.facebook.com/groups/OKFNKorea/">OKFN Korea</a>
+
+<ul>
+<li>Released <a href="https://github.com/teampopong/korea-assembly-officials-property">property data of Korean National Assembly officials</a></li>
+</ul>
+</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2013년 3, 4월 업데이트 내역]]></title>
+    <link href="http://teampopong.github.io/2013/04/27/updates/"/>
+    <updated>2013-04-27T16:35:00+09:00</updated>
+    <id>http://teampopong.github.io/2013/04/27/updates</id>
+    <content type="html"><![CDATA[<p>추운 겨울이 지나 어느덧 완연한 봄이 되었네요.
+지금 팀포퐁은 일산의 어느 동산에 올라 돗자리를 깔고 치맥을 즐기며 지난 두 달을 회상하고 있습니다. 그 동안 저희는 다음과 같은 일들을 했네요 :)<!-- more --></p>
+
+<h3>인명사전</h3>
+
+<ul>
+<li><p>레이아웃 리뉴얼 (2-column에서 3-column으로): 새로운 레이아웃을 시도해 봤는데 오히려 이전 UI가 더 자연스러워서 다시 2-column으로 회귀할 생각입니다. ㅎㅎ</p>
+
+<p>  <img src="http://teampopong.github.io/images/2013-04-27-before.png" width="350"> <img src="http://teampopong.github.io/images/2013-04-27-after.png" width="350">
+  <div class='caption'>비포 앤 애프터</div></p></li>
+<li><a href="http://twitter.github.io/typeahead.js/">typeahead.js</a>를 이용해 검색창에 자동완성 기능 추가</li>
+<li>관심있는 의원을 담아둘 수 있는 &lsquo;카트&rsquo; 기능 추가</li>
+<li>지역구, 직업, 최종학력, 경력, 주소 등 신상정보를 추가 공개하고, 타임라인과 트렌드를 별도의 탭으로 분리 (모아보기 탭 추가 예정)</li>
+<li>검색 속도 개선 실험
+
+<ul>
+<li>가설: SQL <code>like "%keyword%"</code>문을 sequential search하는 대신 PostgreSQL의 GIN(Generalized Inverted Index) index + trigram module을 이용하면 더 빠르겠지?</li>
+<li>결론: dataset이 워낙 작아서 seq search가 더 빠르다. (현재 포퐁에 등록된 정치인의 수는 약 24,000여 명)</li>
+</ul>
+</li>
+<li>&lsquo;정당으로 검색&rsquo; 추가 (정당은 대수-인물 수 순으로 정렬)</li>
+<li><a href="https://pypi.python.org/pypi/Unidecode">Unidecode</a>를 이용해 한-영 변환(transliteration) 기능 개선</li>
+</ul>
+
+
+<h3>데이터</h3>
+
+<ul>
+<li><a href="https://pypi.python.org/pypi/alembic">Alembic</a>을 이용해 DB history/migration 관리</li>
+<li>의원의 주소지 및 출마지 structurization
+
+<ul>
+<li>ex: <code>경기 부천시원미구을</code> &ndash;> <code>경기도&lt;시도&gt; 부천시&lt;시군구&gt; 원미구&lt;시군구&gt; 을</code></li>
+</ul>
+</li>
+<li>18대 회의록 및 의안 크롤링 완료 (<strong>두구두구</strong>)</li>
+</ul>
+
+
+<h3>기타</h3>
+
+<ul>
+<li><a href="http://popong.com">popong.com</a>
+
+<ul>
+<li><a href="http://dev.twitter.com/docs/follow-button">Twitter</a>, <a href="http://developers.facebook.com/docs/reference/plugins/like/">Facebook</a> 버튼 추가</li>
+<li><a href="https://travis-ci.org/teampopong/popong.com">Travis CI</a> 시험 적용</li>
+</ul>
+</li>
+<li>내부 git 저장소들을 <a href="http://github.com/teampopong">GitHub</a>으로 이전: 점진적으로 팀포퐁 프로젝트 오픈소스화
+
+<ul>
+<li>Websites: <a href="https://github.com/teampopong/popong.com">popong.com</a>, <a href="https://github.com/teampopong/teampopong.github.com">blog.popong.com</a>, <a href="https://github.com/teampopong/iamseoulmayor">popong.com/iamseoulmayor</a>, <a href="https://github.com/teampopong/nanow">labs.popong.com/codenamu</a></li>
+<li>Data: <a href="https://github.com/teampopong/southkorea-maps">대한민국 지도</a>, <a href="https://github.com/teampopong/southkorea-population">대한민국 인구</a></li>
+<li>Codes: <a href="https://github.com/teampopong/crawlers">Crawlers</a>, <a href="https://github.com/teampopong/nlp">NLP</a></li>
+</ul>
+</li>
+<li><a href="http://www.facebook.com/groups/OKFNKorea/">OKFN Korea</a>에서 주최한 <a href="http://onoffmix.com/event/12520">오픈 데이터 데이</a> 참가: 좋은 일을 하는 멋진 분들과 <a href="https://github.com/teampopong/korea-assembly-officials-property">19대 국회 재산 내역</a> 데이터 정리 및 공개</li>
+</ul>
+
+
+<p>다음달에는 지속적으로 의원 데이터를 정리하고, 드디어! 의안 및 회의록에서 텍스트를 추출해서 분석을 시작할 예정입니다.<br>
+건의, 질문, 또는 요청할 사항이 있으면 편하게 댓글 달아주시면 감사하겠습니다 :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Updates (Jan., Feb. 2013)]]></title>
+    <link href="http://teampopong.github.io/2013/02/24/updates-en/"/>
+    <updated>2013-02-24T00:00:00+09:00</updated>
+    <id>http://teampopong.github.io/2013/02/24/updates-en</id>
+    <content type="html"><![CDATA[<p>Since November 2010, Team POPONG has went through a variety of discussions and experiments.<br/>
+
+Inspired by <a href="http://www.govtrack.us/blog/2013/02/09/winter-2013-updates-1/" target="_blank">GovTrack&#8217;s periodical reports</a>, we now plan to share our day-by-day lessons. We hope they would benefit other toddler teams that are imagining their own services.</p>
+<!-- more -->
+
+
+
+<h3>Politician Dictionary</h3>
+
+
+
+<ul><li>Dropped usage of MongoDB, and migrated to SQLAlchemy+PostgreSQL.
+
+
+
+<ul><li>Detailed backgrounds shall be posted in the future.</li>
+
+</ul></li>
+
+<li><p>Created portable widgets for a politician&#8217;s <strong>timeline</strong> and <strong>related people</strong>.</p>
+
+
+
+<pre><code>&lt;script src="http://popong.com/widgets/relation.js?person_id=195224" type="text/javascript"&gt;&lt;/script&gt;
+
+</code></pre></li>
+
+<li>Exposed politicians&#8217; Chinese names along with the Korean names.</li>
+
+<li>Added birthyear page (ex: <a href="http://popong.com/polidic/year/1953" target="_blank">Politicians born in 1953</a>).</li>
+
+<li>Modified the browser title, so that the more importation information came first.
+
+
+
+<ul><li><code>POPONG Politician Dictionary - Chin Seon-mi</code> <br/>-&gt; <code>Chin Seon-mi (Minjut-Onghap Party) :: POPONG Politician Dictionary</code></li>
+
+</ul></li>
+
+<li>Started accumulating visiting logs.</li>
+
+</ul><h3>Data</h3>
+
+
+
+<ul><li>Collected all datasets dispersed among the whole filesystem into a single Git repository.
+
+
+
+<ul><li>Documented known sources for every dataset.</li>
+
+</ul></li>
+
+<li>Imported Twitter, Facebook addresses of politicians 
+
+
+
+<ul><li>From <a href="https://docs.google.com/spreadsheet/ccc?key=0Ao-novvdf79gdExCbW9FVWg0VlBoanNQSzV1akFJR1E" target="_blank">SNS addressbook of politicians (unofficial)</a> by <a href="http://maplestory.com" target="_blank">@mazefind</a>.</li>
+
+</ul></li>
+
+<li>Built a glossary of terms containing Korean meanings, English translations, and aliases.</li>
+
+<li>Built a mapping between Hanja(Chinese)-Hangul(Korean) for transliterations.
+
+
+
+<ul><li>Both for Korean last names and for general use.</li>
+
+</ul></li>
+
+<li>Wrote a PDF-parsing library in Jython. 
+
+
+
+<ul><li>However, produces errors and does not yet work perfectly.</li>
+
+<li>ex: &#8220;대안&#8221; →  &#8220;눀안&#8221;</li>
+
+</ul></li>
+
+<li>Crawled the number of Google search results of each politician in order to digitize the politician&#8217;s popularity.
+
+
+
+<ul><li>ex: &#8220;<em>About 24,900,000 results (0.13 seconds)</em>&#8221;</li>
+
+<li>However, this approach was deprecated.</li>
+
+<li>Alternatives exists: Twitter search index or co-authorships of bills.</li>
+
+</ul></li>
+
+<li>Gathered and preprocessed <a href="https://github.com/teampopong/southkorea-maps" target="_blank">South Korean map data</a>.</li>
+
+</ul><h3>Misc</h3>
+
+
+
+<ul><li>Created <a href="http://developers.popong.com" target="_blank">Developers Page</a>.</li>
+
+<li><p>Added link alternates.</p></li>
+
+<li><p>Applied i18n so that all pages are also available in English: .</p></li>
+
+<li>Switched from Apache2 to Nginx.</li>
+
+<li>Standardized file naming convention.
+
+
+
+<ul><li>Only Roman letters.</li>
+
+<li>Lower-case everywhere.</li>
+
+<li>Underscores(<code>_</code>) between words.</li>
+
+</ul></li>
+
+<li>Participated in OKFnKorea&#8217;s Open Data Day Conference, and organized <a href="https://github.com/teampopong/korea-assembly-officials-property" target="_blank">19th Assembly members&#8217; property data</a>.</li>
+
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[2013년 1, 2월 업데이트 내역]]></title>
+    <link href="http://teampopong.github.io/2013/02/23/updates/"/>
+    <updated>2013-02-23T00:00:00+09:00</updated>
+    <id>http://teampopong.github.io/2013/02/23/updates</id>
+    <content type="html"><![CDATA[<p>팀포퐁은 지난 2010년 11월에 모이기 시작하여 지금까지 많은 토의와 실험들을 진행해왔습니다. 신년부터는 팀포퐁이 진행하는 일들을  정기적으로 공유하고자 합니다. 다음은 2013년 1, 2월에 팀포퐁에서 업데이트한 내역입니다.</p>
+<!-- more -->
+
+
+<h3>인명사전</h3>
+
+
+
+<ul><li><a href="http://popong.com/polidic/" target="_blank">대한민국 정치인명사전</a>의 database를 Mongo DB에서 Postgres로 migration. </li>
+
+<li><p>&#8216;관련 정치인&#8217; 기능을 아래와 같이 독립적인 위젯 형태로 변경하여 어디서든 snippet을 입력할 수 있게 함. 예를 들어:</p>
+
+
+
+<pre><code>&lt;script src="http://popong.com/widgets/relation.js?person_id=195224" type="text/javascript"&gt;&lt;/script&gt;
+
+</code></pre></li>
+
+<li>기존에는 한글 이름만 표기했으나, 동명이인을 구분하기 위한 장치의 일환으로 한문 이름을 병기함.</li>
+
+<li>연도 페이지 생성 (ex: <a href="http://popong.com/polidic/year/1953" target="_blank">1953년 생 국회의원</a>)</li>
+
+<li>브라우저 타이틀에서 중요한 정보가 앞 부분에 등장하는 것이 좋다고 생각하여 정보의 위치를 바꿈.
+
+
+
+<ul><li>i.e., <code>POPONG 정치인명사전 - 진선미</code> -&gt; <code>진선미 (민주통합당), 19대 국회의원 :: POPONG 정치인명사전</code></li>
+
+</ul></li>
+
+<li>장기적으로는 Google Trends 위젯을 대체하기 위해 인명사전 내의 인물 페이지 별 방문 로그 수집 (현재는 사이트 레이아웃 변경 중이라 수집 중단)</li>
+
+</ul><h3>데이터</h3>
+
+
+
+<ul><li><code>data.git</code> 저장소를 생성하여 멤버 간 흩어져 있던 데이터 파일들을 한 군데로 집결하고, 데이터의 출처 및 수집일 등 메타데이터 정리. 차후 이를 정리하여 데이터를 공개할 예정.</li>
+
+<li><a href="http://maplestory.com" target="_blank">@mazefind</a>님의 <a href="https://docs.google.com/spreadsheet/ccc?key=0Ao-novvdf79gdExCbW9FVWg0VlBoanNQSzV1akFJR1E" target="_blank">현직 국회의원 블로그/SNS 종합정리</a>에서 국회의원들의 연락처 데이터를 받음.</li>
+
+<li>용어 통일을 위해 정치 용어 정리를 시작함 (i.e., 용어의 풀이, 영문 용어, aliases 정리).</li>
+
+<li>한자-한글 매핑 데이터 정리 (=성씨용 + 범용).</li>
+
+<li>한글, two-column PDF에서 텍스트를 추출하기 위한 Jython 라이브러리 생성. 그러나 부정확한 텍스트 mapping 때문에 의안 등 공문서 PDF에서 텍스트 추출시 오류 발생됨 (ex: <code>대안</code> -&gt; <code>눀안</code>).</li>
+
+<li>정치인의 이름으로 구글링하여 검색 결과 개수를 크롤링하였으나 의미가 없는 것으로 판단하여 폐기.
+
+
+
+<ul><li>ex: &#8220;<em>About 24,900,000 results (0.13 seconds)</em>&#8221;</li>
+
+<li>의원에 대한 관심도는 Twitter 등장 빈도 수, 의원 간 친밀도는 공동 발의로 대체할 수 있을 것으로 판단.</li>
+
+</ul></li>
+
+<li><a href="https://github.com/teampopong/southkorea-maps" target="_blank">국내 지도 데이터</a> 가공</li>
+
+</ul><h3>기타</h3>
+
+
+
+<ul><li>Github site를 이용하여 차후 <a href="http://developers.popong.com" target="_blank">개발자 문서</a>가 될 사이트 개설.</li>
+
+<li>한국 정치 데이터를 해외까지 확산시키기 위해 <a href="http://en.popong.com" target="_blank">i18n</a> 도입.</li>
+
+<li><a href="http://support.google.com/webmasters/bin/answer.py?hl=en&amp;answer=189077&amp;topic=2370587&amp;ctx=topic" target="_blank">Link alternate</a> 추가.</li>
+
+<li>Apache2에서 Nginx로 웹서버 전체 migration.</li>
+
+<li>파일명 규칙 통일.
+
+
+
+<ul><li>글자는 모두 영문 소문자로 표기</li>
+
+<li>단어 사이는 underscore(<code>_</code>)로 연결</li>
+
+</ul></li>
+
+<li><a href="http://www.facebook.com/OKFNKorea" target="_blank">OKFnKorea</a>의 Open Data Day 행사에 참석하여 <a href="https://github.com/teampopong/korea-assembly-officials-property" target="_blank">19대 신규 등록 국회의원의 재산 현황 데이터</a> 정리</li>
+
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[미국 ICPSR의 의원 및 의안 투표 데이터 소개]]></title>
+    <link href="http://teampopong.github.io/2013/01/25/icpsr/"/>
+    <updated>2013-01-25T00:00:00+09:00</updated>
+    <id>http://teampopong.github.io/2013/01/25/icpsr</id>
+    <content type="html"><![CDATA[<p>&#8216;빅데이터&#8217;가 유난히 화제입니다. 언론과 글로벌 IT 기업들이 앞다투어 데이터의 중요성을 역설하고 데이터 분석이 보편화되어 많은 사람들이 데이터를 다루는 요즘에도, 여전히 많은 데이터쟁이들은 분석하려는 데이터를 확보하고 정제하는데 많은 시간을 보내고 있습니다.</p>
+<!-- more -->
+
+
+<p>그리고 <a href="http://info.nec.go.kr/main/showDocument.xhtml?electionId=0000000000&amp;topMenuId=BI&amp;secondMenuId=BIGI" target="_blank">심지어 어떤 데이터들</a>은, 뻔히 세상에 존재하는데도 그 접근성이 떨어진다는 이유로 사용되지 않습니다. 이러한 문제 의식을 가지고 <a href="http://popong.com" target="_blank">팀포퐁</a>은 국내외의 수많은 연구자/개발자들이 편하게 사용할 수 있는 데이터 제공을 위해 노력하고 있습니다. 그 과정의 일환으로 오늘은, 오래 전부터 연구용 정치 데이터를 제공하고 있는 미국의 <a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/index.jsp" target="_blank">ICPSR Data Archive</a>를 살펴보고자 합니다.</p>
+
+
+
+<h3>ICPSR Data Archive</h3>
+
+
+
+<p>ICPSR Data Archive은 University of Michigan에서 시작된 연구 단체 ICPSR(Interuniversity Consortium for Political and Social Research)의 데이터 저장소로, 경제, 교육, 정치, 군사, 환경, 보건 등 다양한 영역에 걸쳐 연구용 데이터를 제공하고 있습니다. 특히, 이 곳에서 제공하는 미의회 <a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/series/156" target="_blank">의원</a> 및 <a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/series/157" target="_blank">의안 투표</a> 데이터 시리즈는 미국 초대 의회부터 기록되고 있어, 이를 바탕으로 <a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/biblio/series/156/resources?sortBy=1" target="_blank">다양한 정치학적 연구</a>를 가능케 하였습니다. 데이터를 요약하면 다음과 같습니다. (2013년 현재, 미국 의회는 <a href="http://en.wikipedia.org/wiki/List_of_United_States_Congresses" target="_blank">113대</a>이며, 각 의회는 2년에 걸쳐 있습니다.)</p>
+
+
+
+<table class="table"><thead><tr><th>데이터 번호</th>
+
+<th>내용</th>
+
+<th>기간</th>
+
+<th>레코드/변수 개수</th>
+
+</tr></thead><tbody><tr><td><a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/series/157/studies/7428" target="_blank">ICPSR-7428</a></td>
+
+<td>의원 명단</td>
+
+<td>1-95대 의회 <br/> (1789-1978년)</td>
+
+<td>10846개 레코드, 119개 변수</td>
+
+</tr><tr><td><a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/series/157/studies/7645" target="_blank">ICPSR-7645</a></td>
+
+<td>의안 투표 내역</td>
+
+<td>79-97대 의회 <br/> (1945-1982년)</td>
+
+<td>상원(Senate): 393개 레코드, 753개 변수 <br/>하원(House): 1826개 레코드, 802개 변수</td>
+
+</tr><tr><td><a href="http://www.icpsr.umich.edu/icpsrweb/ICPSR/series/157/studies/7803" target="_blank">ICPSR-7803</a></td>
+
+<td>의원 명단</td>
+
+<td>1-104대 의회 <br/> (1789-1996년)</td>
+
+<td>42862개 레코드(11455명 의원), 104개의 변수</td>
+
+</tr></tbody></table><p>ICPSR 의원 및 의안 투표 데이터를 살펴본 뒤 다음과 같은 특이점을 발견하였습니다.</p>
+
+
+
+<ul><li>ICPSR-7428에 &#8216;<strong>ICPSR 의원 번호 (ICPSR member Identification number)</strong>&#8216;를 만들어 공개했는데, 연구가 진행됨에 따라 의원 번호에 문제점이 발견되면 계속 수정하여 배포.</li>
+
+<li>ICPSR-7645의 변수가 많은 이유는 각 의회 별로 변수를 따로 두었기 때문. 가령, 97대 의회의 경우 13개의 변수를 사용하며, 전 의회 공통 변수는 8개.</li>
+
+<li>ICPSR-7803은 각 의원 별로 여러 개의 데이터 레코드가 있는 transactional data. (ex: 101대 의회부터는 의원의 임기 도중 정당만 바뀌어도 새로운 레코드 생성.)</li>
+
+</ul><p>&gt; <em>Tip.</em> ICPSR 데이터를 다운 받을 때는 몇 가지 절차를 따라야 합니다. 국내에서는 <a href="http://www.icpsr.umich.edu/icpsrweb/membership/administration/institutions/1541" target="_blank">이 기관들</a>에 속한 분들은 기관을 통해 자유롭게 다운 받을 수 있습니다.</p>
+
+
+
+<h3>ICPSR 의원 및 의안 투표 데이터가 주는 시사점</h3>
+
+
+
+<p>팀포퐁은 <a href="http://info.nec.go.kr/main/showDocument.xhtml?electionId=0000000000&amp;topMenuId=BI&amp;secondMenuId=BIGI" target="_blank">중앙선거관리위원회 선거통계시스템</a>에서 제공하는 국회의원 선거의 후보자/당선자 데이터를 사용합니다. 선관위 데이터는 각 국회의원 선거마다 제공되기 때문에, ICPSR처럼 의원들의 집합(set)을 추출하기 위해서는 1-19대 국회 데이터의 병합이 필요합니다. 이를 위해 저희는 각 의원에게 고유 번호를 부여하고 있는데, 그 과정에서 몇 가지 어려움이 있었습니다.</p>
+
+
+
+<ol><li><strong>이름</strong>과 <strong>국회 대수</strong>를 key로 할 경우, 동명이인이 존재함. (ex: 18대 국회에는 <a href="http://popong.com/polidic/person/q/%EA%B9%80%EC%84%A0%EB%8F%99" target="_blank">&#8216;김선동&#8217;</a>과 <a href="http://popong.com/polidic/person/q/%EC%9D%B4%EC%98%81%EC%95%A0" target="_blank">&#8216;이영애&#8217;</a>가 각각 2명 씩 존재함.)</li>
+
+<li><strong>이름</strong>과 <strong>생년</strong>을 key로 할 경우, 동일인으로 추정되는 사람이 여러 번 반복적으로 등장함. (ex: <a href="http://popong.com/polidic/person/q/%EA%B9%80%EC%9E%AC%EC%88%9C" target="_blank">&#8216;김재순&#8217;</a>, <a href="http://popong.com/polidic/person/q/%EA%B9%80%EC%9A%A9%ED%98%B8" target="_blank">&#8216;김용호&#8217;</a>, <a href="http://popong.com/polidic/person/q/%EC%9D%B4%EA%B4%80%ED%98%95" target="_blank">&#8216;이관형&#8217;</a>, 
+
+<a href="http://popong.com/polidic/person/q/%ED%97%88%EA%B2%BD%EA%B5%AC" target="_blank">&#8216;허경구&#8217;</a>가 이에 해당. 예전 국회일수록 데이터가 부정확하고, 후보자/당선자 본인이 생일을 불확실하게 알고 있기 때문이라고 추정.)</li>
+
+</ol><p>팀포퐁은 이러한 문제들을 최대한 해결한 상태에서 의원 고유 번호를 정하고, 데이터를 배포할 예정입니다. 혹시 저희에게 도움이 될 만한 아이디어나 제안이 있다면 댓글이나 <a href="mailto:contact@popong.com" target="_blank">이메일</a>을 남겨주시면 감사하겠습니다.</p>
+
+
+
+<p>&gt; ICPSR의 존재를 알려주신 <a href="http://dss.ucsd.edu/~ysohn/" target="_blank">UCSD의 손윤규 님</a>께 감사드립니다.</p>
+
+
+
+<h3>참고자료</h3>
+
+
+
+<ol><li>Ken Martis, The Historical Atlas of Political Parties in the United States Congress, MacMillan Publishing Company, 1989. <br/></li>
+
+<li>McKibbin, Carroll L.  BIOGRAPHICAL CHARACTERISTICS OF MEMBERS  OF   THE   UNITED   STATES   CONGRESS, 1789-1978 [Computer file].  Compiled by Carroll L. McKibbin, University  of  Nebraska.  3rd ICPSR ed. Ann Arbor, MI:   Inter-university  Consortium  for Political   and  Social  Research  [producer and distributor], 1979. <br/></li>
+
+<li>Keith Poole, &#8220;Corrected ICPSR Member ID Numbers&#8221;, <a href="http://www.voteview.com/icpsr.htm" target="_blank"><a href="http://www.voteview.com/icpsr.htm" target="_blank">http://www.voteview.com/icpsr.htm</a></a></li>
+
+</ol>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[국회 좌석배치의 관례?]]></title>
+    <link href="http://teampopong.github.io/2012/06/26/assembly-seats/"/>
+    <updated>2012-06-26T00:00:00+09:00</updated>
+    <id>http://teampopong.github.io/2012/06/26/assembly-seats</id>
+    <content type="html"><![CDATA[<p>여러분은 국회의 좌석 배치에 대해서 관심을 가져본 적이 있으신가요?<br>
+정치에 어느 정도 관심을 가지고 계신 분들은, 여당인 한나라당이 중앙에 위치해있고, 야당들이 그 주변에 포진해 있다는 사실을 아실 것입니다.<!-- more -->
+18대 국회를 기준으로 보면 대충 아래 그림과 같은 모습을 띠고 있지요.</p>
+
+<p><img class="center" src="http://teampopong.github.io/images/2012-06-26-seats.jpg"></p>
+
+<div class="caption">18대 국회의 정당 배치 &copy; <a href="http://blog.daum.net/bhjun/5508303" target="_blank">전병헌</a>
+</div>
+
+
+<p>그런데 2011년, 그러니까 작년 말, 팀 포퐁에서는 재미있는 그림을 하나 발견했습니다.<br>
+한나라당의 <a href="http://popong.com/polidic/person/19461114">이계진 의원</a>이 2005년 3월에 자신의 블로그에 올린 삽화인데요, 이 그림을 보고 저희는, 좌석의 위치에 따라 국회의원들의 심정도 다를 수 있다는 사실을 알게 되었습니다. (학창시절, 수학여행 갈 때 버스의 좌석배치와 비슷한 광경이라는 생각도 들었답니다 ㅎ)</p></p>
+
+<p><img class="center" src="http://teampopong.github.io/images/2012-06-26-hierarchy.jpg"></p>
+
+<div class="caption">국회 자리 위치에 따른 심정 &copy; <a href="http://blog.naver.com/kjl533/20010496857" target="_blank">국회의원 이계진</a></div>
+
+
+<p>팀 포퐁에서는, 이계진 의원의 주장이 과연 사실인지를 실제 데이터를 통해 알아보기로 하고, 간단하게(?) 아래의 세 가지 step으로 진행을 했습니다.</p>
+
+<ol>
+<li>대한민국 국회 본회의장 좌석배치도 구하기
+
+<ul>
+<li>국회 문서고로 연락 (02-788-2902)</li>
+<li>팩스 전송 (원래는 이메일로 파일 전송을 요청하였으나, 불가하다는 답변을 받음)</li>
+<li>군데군데에 한문이 있다는 난제를 극복하고&hellip;</li>
+</ul>
+</li>
+<li>Offline 좌석배치도를 online version으로 mapping
+
+<ul>
+<li>좌석배치도를 보고 각 좌석의 좌표 정보를 본딴다.</li>
+<li>좌석배치도에 적힌 의원의 이름을 web version에 옮긴다. (이 과정 때문에 자주 업뎃하기는 힘들 것 같아요&hellip;;ㅁ;)</li>
+</ul>
+</li>
+<li><a href="http://popong.com/polidic/" target="_blank">포퐁의 정치인명사전</a>에서 관련 의원들을 찾아 linking</li>
+</ol>
+
+
+<p>그렇게 해서 얻어낸 결과물은 아래와 같습니다.</p>
+
+<p><img class="center" src="http://teampopong.github.io/images/2012-06-26-seats-colored.png"></p>
+
+<div class="caption">당선 횟수에 따른 좌석 분포 &copy; Team POPONG</div>
+
+
+<p>어떤가요?
+<strong>데이터 기반으로 봤을 때</strong> 이계진 의원의 의견이 타당하다고 생각되시나요?<br>
+이 포스팅에서 보여드린 결과물은 아쉽게도 web version 의 캡쳐화면인데요,
+조금 더 다듬고 보강해서, 조만간 interactive infographic 형태로 보여드릴 예정입니다.</p>
+
+<p>기대해주세요.<br>
+Coming soon!</p>
+
+<hr>
+
+
+<p><code>+ 20120713</code> 이번 주말, <a href="http://codenamu.org" target="_blank">코드나무</a>의 공공데이터캠프에 참석했더니 참석자 한 분께서 위의 내용이 이틀전에 <a href="http://article.joinsmsn.com/news/article/article.asp?total_id=8708550&amp;cloc=olink%7Carticle%7Cdefault" target="_blank">중앙일보에 기사화</a> 되었음을 알려주셨습니다.
+저희가 잘 몰랐던 사실들도 나와 있어서 많은 공부가 되었어요!</p>
+
+<p><code>+ 20120721</code>
+코드나무의 공공데이터캠프에서 만들어진 위 시도의 interactive version은 <a href="http://labs.popong.com/codenamu/">여기</a>에서 보실 수 있습니다.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello world!]]></title>
+    <link href="http://teampopong.github.io/2012/06/25/hello-world/"/>
+    <updated>2012-06-25T00:00:00+09:00</updated>
+    <id>http://teampopong.github.io/2012/06/25/hello-world</id>
+    <content type="html"><![CDATA[<p>안녕하세요, 팀 포퐁입니다.</p>
+
+
+
+<p>저희는 지난 1년간 대한민국 국회, 정치인, 정당 등과 관련한 재미있는 분석들을 했고, 공동작업을 하면서 느낀 점들, 개발 경험들, 그리고 수많은 삽질 경험들(..)이 있습니다. 이러한 경험들을 기록하고, 공유하기 위해 블로그를 만들었습니다. 다양한 이슈들에 관하여 종종 포스팅할 예정이니, 많은 관심 가져주세요 :)</p>
+
+
+
+<p>자, 그럼-<br/>
+
+첫 포스팅 나갑니다!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello world!]]></title>
+    <link href="http://teampopong.github.io/2012/03/05/hello-world/"/>
+    <updated>2012-03-05T00:00:00+09:00</updated>
+    <id>http://teampopong.github.io/2012/03/05/hello-world</id>
+    <content type="html"><![CDATA[<p>We are Team POPONG.
+
+Visit us at <a href="http://en.popong.com" target="_blank">popong.com</a>!</p>
+]]></content>
+  </entry>
+  
+</feed>
