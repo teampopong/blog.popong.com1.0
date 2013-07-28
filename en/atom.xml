@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: en | Team POPONG]]></title>
-  <link href="http://teampopong.github.io//en/atom.xml" rel="self"/>
-  <link href="http://teampopong.github.io/"/>
-  <updated>2013-07-19T20:55:23+09:00</updated>
-  <id>http://teampopong.github.io/</id>
+  <link href="http://blog.popong.com//en/atom.xml" rel="self"/>
+  <link href="http://blog.popong.com/"/>
+  <updated>2013-07-29T01:38:59+09:00</updated>
+  <id>http://blog.popong.com/</id>
   <author>
     <name><![CDATA[teampopong]]></name>
     <email><![CDATA[contact@popong.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Updates (May., Jun. 2013)]]></title>
-    <link href="http://teampopong.github.io/2013/07/02/updates-en/"/>
+    <link href="http://blog.popong.com/2013/07/02/updates-en/"/>
     <updated>2013-07-02T14:40:00+09:00</updated>
-    <id>http://teampopong.github.io/2013/07/02/updates-en</id>
+    <id>http://blog.popong.com/2013/07/02/updates-en</id>
     <content type="html"><![CDATA[<p>During the last two months, <a href="http://popong.com">Team POPONG</a> has experienced something very fascinating. We&rsquo;ve beta launched our main service <a href="http://pokr.kr">Pokr</a>, and people are getting more and more interested in it. We&rsquo;re getting lots of feedback, and a whole bunch of &lsquo;first-time&rsquo; experiences.<!-- more --></p>
 
 <h3><a href="http://pokr.kr">Pokr</a></h3>
@@ -55,7 +55,7 @@
 <li>Which Tweets new bills in realtime
 <center>
 <blockquote class="twitter-tweet"><p>농림축산식품해양수산위원장이 &quot;어장관리법 일부개정법률안(대안)&quot;을 새로 발의하였습니다. <a href="http://t.co/8GptFCV2ms"><a href="http://t.co/8GptFCV2ms">http://t.co/8GptFCV2ms</a></a></p>&mdash; 포커봇 (@pokrbot) <a href="https://twitter.com/pokrbot/statuses/351937420788371456">July 2, 2013</a></blockquote>
-<script async src="http://teampopong.github.io//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="http://blog.popong.com//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center></li>
 </ul>
 </li>
@@ -98,7 +98,7 @@
 
 <ul>
 <li>Ex: <a href="http://en.pokr.kr/person/19481130#profile">Lee, In-Je</a><br>
-  <img class="center" src="/images/2013-07-02-lee-en.png" width="400"></li>
+  {% img center /images/2013-07-02-lee-en.png 400 %}</li>
 </ul>
 </li>
 </ul>
@@ -107,7 +107,7 @@
 
 <ul>
 <li>Added tooltips to bill status descriptions
-  <img class="center" src="/images/2013-07-02-bill-status-desc-en.png" width="600">
+  {% img center /images/2013-07-02-bill-status-desc-en.png 600 %}
 
 <ul>
 <li>Because Team POPONG believes in <em>easier</em> politics.</li>
@@ -124,7 +124,7 @@
 
 <ul>
 <li>Added party logos
-  <img class="center" src="/images/2013-07-02-parties-en.png" width="600"></li>
+  {% img center /images/2013-07-02-parties-en.png 600 %}</li>
 </ul>
 </li>
 </ol>
@@ -163,9 +163,9 @@
   
   <entry>
     <title type="html"><![CDATA[Updates (Mar., Apr. 2013)]]></title>
-    <link href="http://teampopong.github.io/2013/04/27/updates-en/"/>
+    <link href="http://blog.popong.com/2013/04/27/updates-en/"/>
     <updated>2013-04-27T18:24:00+09:00</updated>
-    <id>http://teampopong.github.io/2013/04/27/updates-en</id>
+    <id>http://blog.popong.com/2013/04/27/updates-en</id>
     <content type="html"><![CDATA[<p>In the last two months, Team POPONG did the followings.</p>
 
 <!-- more -->
@@ -176,7 +176,7 @@
 <ul>
 <li><p>Layout renewal (in progress): Attempted to change from a 2-column to 3-column layout, but decided to go back to 2 columns</p>
 
-<p>  <img src="/images/2013-04-27-before.png" width="350"> <img src="/images/2013-04-27-after.png" width="350"></p></li>
+<p>  {% img /images/2013-04-27-before.png 350 %} {% img /images/2013-04-27-after.png 350 %}</p></li>
 <li>Autocomplete(<a href="http://twitter.github.io/typeahead.js/">typeahead</a>) in search box</li>
 <li>Add feature to save favorite politicians to cart</li>
 <li>Display more personal information of politicians
@@ -237,9 +237,9 @@
   
   <entry>
     <title type="html"><![CDATA[Updates (Jan., Feb. 2013)]]></title>
-    <link href="http://teampopong.github.io/2013/02/24/updates-en/"/>
+    <link href="http://blog.popong.com/2013/02/24/updates-en/"/>
     <updated>2013-02-24T00:00:00+09:00</updated>
-    <id>http://teampopong.github.io/2013/02/24/updates-en</id>
+    <id>http://blog.popong.com/2013/02/24/updates-en</id>
     <content type="html"><![CDATA[<p>Since November 2010, Team POPONG has went through a variety of discussions and experiments.<br/>
 
 Inspired by <a href="http://www.govtrack.us/blog/2013/02/09/winter-2013-updates-1/" target="_blank">GovTrack&#8217;s periodical reports</a>, we now plan to share our day-by-day lessons. We hope they would benefit other toddler teams that are imagining their own services.</p>
@@ -380,9 +380,9 @@ Inspired by <a href="http://www.govtrack.us/blog/2013/02/09/winter-2013-updates-
   
   <entry>
     <title type="html"><![CDATA[Hello world!]]></title>
-    <link href="http://teampopong.github.io/2012/03/05/hello-world/"/>
+    <link href="http://blog.popong.com/2012/03/05/hello-world/"/>
     <updated>2012-03-05T00:00:00+09:00</updated>
-    <id>http://teampopong.github.io/2012/03/05/hello-world</id>
+    <id>http://blog.popong.com/2012/03/05/hello-world</id>
     <content type="html"><![CDATA[<p>We are Team POPONG.
 
 Visit us at <a href="http://en.popong.com" target="_blank">popong.com</a>!</p>

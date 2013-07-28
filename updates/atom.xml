@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: updates | Team POPONG]]></title>
-  <link href="http://teampopong.github.io//updates/atom.xml" rel="self"/>
-  <link href="http://teampopong.github.io/"/>
-  <updated>2013-07-19T20:55:23+09:00</updated>
-  <id>http://teampopong.github.io/</id>
+  <link href="http://blog.popong.com//updates/atom.xml" rel="self"/>
+  <link href="http://blog.popong.com/"/>
+  <updated>2013-07-29T01:38:59+09:00</updated>
+  <id>http://blog.popong.com/</id>
   <author>
     <name><![CDATA[teampopong]]></name>
     <email><![CDATA[contact@popong.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[2013년 5, 6월 업데이트 내역]]></title>
-    <link href="http://teampopong.github.io/2013/07/03/updates-ko/"/>
+    <link href="http://blog.popong.com/2013/07/03/updates-ko/"/>
     <updated>2013-07-03T16:00:00+09:00</updated>
-    <id>http://teampopong.github.io/2013/07/03/updates-ko</id>
+    <id>http://blog.popong.com/2013/07/03/updates-ko</id>
     <content type="html"><![CDATA[<p>지난 두 달간, <a href="http://pokr.kr">포커(Pokr; POlitics in KoRea)</a>를 런치하기 위해 팀포퐁은 전에 없던 바쁜 시간을 보냈습니다.
 여러분께서 많은 관심과 피드백을 주신 덕분에 5, 6월은 저희에게 많은 것을 경험하고 배울 수 있었던 소중한 시간이었습니다.
 정말 감사드립니다^^<!-- more --><br>
@@ -39,7 +39,7 @@
 </li>
 <li>각 섹션에 <a href="http://pokr.kr/person/195224#legislations">고유 URL</a> 부여</li>
 <li>페이지 계층 구조 표시<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup><br>
-  <img src="/images/2013-07-03-breadcrumb.png"></li>
+  {% img /images/2013-07-03-breadcrumb.png %}</li>
 <li>모바일 지원</li>
 <li><a href="http://pokr.kr/404">404</a>(페이지를 찾을 수 없습니다), 500(내부 에러) 페이지</li>
 <li>의원, 정당, 의안, 지역, 학교 <a href="http://pokr.kr/search?query=%EA%B2%BD%EA%B8%B0">통합검색</a></li>
@@ -58,7 +58,7 @@
 <li>일부러 의안을 찾아나서지 않아도, 자신의 관심 의안들을 편하게 받아볼 수 있는 세상이 오고 있습니다. 포커봇은 저희가 만드는 그 변화의 작은 시작점이라고 생각합니다. 더 멋진 모습으로 발전하기 위해 여러분의 많은 사랑과 피드백을 주세요 :)
 <center>
 <blockquote class="twitter-tweet"><p>농림축산식품해양수산위원장이 &quot;어장관리법 일부개정법률안(대안)&quot;을 새로 발의하였습니다. <a href="http://t.co/8GptFCV2ms"><a href="http://t.co/8GptFCV2ms">http://t.co/8GptFCV2ms</a></a></p>&mdash; 포커봇 (@pokrbot) <a href="https://twitter.com/pokrbot/statuses/351937420788371456">July 2, 2013</a></blockquote>
-<script async src="http://teampopong.github.io//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="http://blog.popong.com//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center></li>
 </ul>
 </li>
@@ -75,7 +75,7 @@
 
 <ul>
 <li>미완성 기능들을 제거하는 과정에서 레이아웃도 좀 더 심플하게 바꾸기로 결정하였습니다.
-<img class="center" src="/images/2013-07-03-pokr.png" width="500"></li>
+{% img center /images/2013-07-03-pokr.png 500 %}</li>
 </ul>
 </li>
 <li>데이터를 테이블 형태로 표시
@@ -107,7 +107,7 @@
 
 <ul>
 <li>의안 처리 상태에 마우스를 가져가면 상세설명 표시<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>
-  <img src="/images/2013-07-02-bill-status-desc-en.png" width="600"></li>
+  {% img /images/2013-07-02-bill-status-desc-en.png 600 %}</li>
 <li>의안 원문 PDF 링크</li>
 <li>발의자들의 정당 분포를 파이차트로 표시<br>
 예) <a href="http://pokr.kr/bill/1901176">고용상 연령차별금지 및 고령자고용촉진에 관한 법률 일부개정법률안</a></li>
@@ -183,9 +183,9 @@
   
   <entry>
     <title type="html"><![CDATA[Updates (May., Jun. 2013)]]></title>
-    <link href="http://teampopong.github.io/2013/07/02/updates-en/"/>
+    <link href="http://blog.popong.com/2013/07/02/updates-en/"/>
     <updated>2013-07-02T14:40:00+09:00</updated>
-    <id>http://teampopong.github.io/2013/07/02/updates-en</id>
+    <id>http://blog.popong.com/2013/07/02/updates-en</id>
     <content type="html"><![CDATA[<p>During the last two months, <a href="http://popong.com">Team POPONG</a> has experienced something very fascinating. We&rsquo;ve beta launched our main service <a href="http://pokr.kr">Pokr</a>, and people are getting more and more interested in it. We&rsquo;re getting lots of feedback, and a whole bunch of &lsquo;first-time&rsquo; experiences.<!-- more --></p>
 
 <h3><a href="http://pokr.kr">Pokr</a></h3>
@@ -223,7 +223,7 @@
 <li>Which Tweets new bills in realtime
 <center>
 <blockquote class="twitter-tweet"><p>농림축산식품해양수산위원장이 &quot;어장관리법 일부개정법률안(대안)&quot;을 새로 발의하였습니다. <a href="http://t.co/8GptFCV2ms"><a href="http://t.co/8GptFCV2ms">http://t.co/8GptFCV2ms</a></a></p>&mdash; 포커봇 (@pokrbot) <a href="https://twitter.com/pokrbot/statuses/351937420788371456">July 2, 2013</a></blockquote>
-<script async src="http://teampopong.github.io//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="http://blog.popong.com//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center></li>
 </ul>
 </li>
@@ -266,7 +266,7 @@
 
 <ul>
 <li>Ex: <a href="http://en.pokr.kr/person/19481130#profile">Lee, In-Je</a><br>
-  <img class="center" src="/images/2013-07-02-lee-en.png" width="400"></li>
+  {% img center /images/2013-07-02-lee-en.png 400 %}</li>
 </ul>
 </li>
 </ul>
@@ -275,7 +275,7 @@
 
 <ul>
 <li>Added tooltips to bill status descriptions
-  <img class="center" src="/images/2013-07-02-bill-status-desc-en.png" width="600">
+  {% img center /images/2013-07-02-bill-status-desc-en.png 600 %}
 
 <ul>
 <li>Because Team POPONG believes in <em>easier</em> politics.</li>
@@ -292,7 +292,7 @@
 
 <ul>
 <li>Added party logos
-  <img class="center" src="/images/2013-07-02-parties-en.png" width="600"></li>
+  {% img center /images/2013-07-02-parties-en.png 600 %}</li>
 </ul>
 </li>
 </ol>
@@ -331,9 +331,9 @@
   
   <entry>
     <title type="html"><![CDATA[Updates (Mar., Apr. 2013)]]></title>
-    <link href="http://teampopong.github.io/2013/04/27/updates-en/"/>
+    <link href="http://blog.popong.com/2013/04/27/updates-en/"/>
     <updated>2013-04-27T18:24:00+09:00</updated>
-    <id>http://teampopong.github.io/2013/04/27/updates-en</id>
+    <id>http://blog.popong.com/2013/04/27/updates-en</id>
     <content type="html"><![CDATA[<p>In the last two months, Team POPONG did the followings.</p>
 
 <!-- more -->
@@ -344,7 +344,7 @@
 <ul>
 <li><p>Layout renewal (in progress): Attempted to change from a 2-column to 3-column layout, but decided to go back to 2 columns</p>
 
-<p>  <img src="/images/2013-04-27-before.png" width="350"> <img src="/images/2013-04-27-after.png" width="350"></p></li>
+<p>  {% img /images/2013-04-27-before.png 350 %} {% img /images/2013-04-27-after.png 350 %}</p></li>
 <li>Autocomplete(<a href="http://twitter.github.io/typeahead.js/">typeahead</a>) in search box</li>
 <li>Add feature to save favorite politicians to cart</li>
 <li>Display more personal information of politicians
@@ -405,9 +405,9 @@
   
   <entry>
     <title type="html"><![CDATA[2013년 3, 4월 업데이트 내역]]></title>
-    <link href="http://teampopong.github.io/2013/04/27/updates/"/>
+    <link href="http://blog.popong.com/2013/04/27/updates/"/>
     <updated>2013-04-27T16:35:00+09:00</updated>
-    <id>http://teampopong.github.io/2013/04/27/updates</id>
+    <id>http://blog.popong.com/2013/04/27/updates</id>
     <content type="html"><![CDATA[<p>추운 겨울이 지나 어느덧 완연한 봄이 되었네요.
 지금 팀포퐁은 일산의 어느 동산에 올라 돗자리를 깔고 치맥을 즐기며 지난 두 달을 회상하고 있습니다. 그 동안 저희는 다음과 같은 일들을 했네요 :)<!-- more --></p>
 
@@ -416,7 +416,7 @@
 <ul>
 <li><p>레이아웃 리뉴얼 (2-column에서 3-column으로): 새로운 레이아웃을 시도해 봤는데 오히려 이전 UI가 더 자연스러워서 다시 2-column으로 회귀할 생각입니다. ㅎㅎ</p>
 
-<p>  <img src="/images/2013-04-27-before.png" width="350"> <img src="/images/2013-04-27-after.png" width="350">
+<p>  {% img /images/2013-04-27-before.png 350 %} {% img /images/2013-04-27-after.png 350 %}
   <div class='caption'>비포 앤 애프터</div></p></li>
 <li><a href="http://twitter.github.io/typeahead.js/">typeahead.js</a>를 이용해 검색창에 자동완성 기능 추가</li>
 <li>관심있는 의원을 담아둘 수 있는 &lsquo;카트&rsquo; 기능 추가</li>
@@ -476,9 +476,9 @@
   
   <entry>
     <title type="html"><![CDATA[Updates (Jan., Feb. 2013)]]></title>
-    <link href="http://teampopong.github.io/2013/02/24/updates-en/"/>
+    <link href="http://blog.popong.com/2013/02/24/updates-en/"/>
     <updated>2013-02-24T00:00:00+09:00</updated>
-    <id>http://teampopong.github.io/2013/02/24/updates-en</id>
+    <id>http://blog.popong.com/2013/02/24/updates-en</id>
     <content type="html"><![CDATA[<p>Since November 2010, Team POPONG has went through a variety of discussions and experiments.<br/>
 
 Inspired by <a href="http://www.govtrack.us/blog/2013/02/09/winter-2013-updates-1/" target="_blank">GovTrack&#8217;s periodical reports</a>, we now plan to share our day-by-day lessons. We hope they would benefit other toddler teams that are imagining their own services.</p>
