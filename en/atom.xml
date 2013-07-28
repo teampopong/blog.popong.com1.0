@@ -4,7 +4,7 @@
   <title><![CDATA[Category: en | Team POPONG]]></title>
   <link href="http://blog.popong.com//en/atom.xml" rel="self"/>
   <link href="http://blog.popong.com/"/>
-  <updated>2013-07-29T01:38:59+09:00</updated>
+  <updated>2013-07-29T01:39:11+09:00</updated>
   <id>http://blog.popong.com/</id>
   <author>
     <name><![CDATA[teampopong]]></name>
@@ -98,7 +98,7 @@
 
 <ul>
 <li>Ex: <a href="http://en.pokr.kr/person/19481130#profile">Lee, In-Je</a><br>
-  {% img center /images/2013-07-02-lee-en.png 400 %}</li>
+  <img class="center" src="/images/2013-07-02-lee-en.png" width="400"></li>
 </ul>
 </li>
 </ul>
@@ -107,7 +107,7 @@
 
 <ul>
 <li>Added tooltips to bill status descriptions
-  {% img center /images/2013-07-02-bill-status-desc-en.png 600 %}
+  <img class="center" src="/images/2013-07-02-bill-status-desc-en.png" width="600">
 
 <ul>
 <li>Because Team POPONG believes in <em>easier</em> politics.</li>
@@ -124,7 +124,7 @@
 
 <ul>
 <li>Added party logos
-  {% img center /images/2013-07-02-parties-en.png 600 %}</li>
+  <img class="center" src="/images/2013-07-02-parties-en.png" width="600"></li>
 </ul>
 </li>
 </ol>
@@ -176,7 +176,7 @@
 <ul>
 <li><p>Layout renewal (in progress): Attempted to change from a 2-column to 3-column layout, but decided to go back to 2 columns</p>
 
-<p>  {% img /images/2013-04-27-before.png 350 %} {% img /images/2013-04-27-after.png 350 %}</p></li>
+<p>  <img src="/images/2013-04-27-before.png" width="350"> <img src="/images/2013-04-27-after.png" width="350"></p></li>
 <li>Autocomplete(<a href="http://twitter.github.io/typeahead.js/">typeahead</a>) in search box</li>
 <li>Add feature to save favorite politicians to cart</li>
 <li>Display more personal information of politicians

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ko | Team POPONG]]></title>
   <link href="http://blog.popong.com//ko/atom.xml" rel="self"/>
   <link href="http://blog.popong.com/"/>
-  <updated>2013-07-29T01:38:59+09:00</updated>
+  <updated>2013-07-29T01:39:11+09:00</updated>
   <id>http://blog.popong.com/</id>
   <author>
     <name><![CDATA[teampopong]]></name>
@@ -37,7 +37,7 @@
 
 <h4>1. 데이터 간 유기적 연결성 (Data interlinking)</h4>
 
-<p>{% img center /images/2013-07-19-likms.png 600 %}</p>
+<p><img class="center" src="/images/2013-07-19-likms.png" width="600"></p>
 
 <div class="caption">
 국회 의안정보시스템에 게시된 2013년 7월 19일자 원자력안전법 일부개정법률안
@@ -51,7 +51,7 @@
 <p>따라서 팀포퐁은 의안에 대한 발의자 데이터를 가져온 후, 현재 국회에 있는 의원들의 이름과 매칭(matching)하는 작업을 가장 먼저 했습니다.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>
 이 때문에 포커에서는, 국회의원 페이지에서 그가 발의한 의안 페이지로 이동하고, 다시 의안 페이지에서 다른 의원 페이지로, 의원 소속 지역구 페이지로, 넘실넘실 이동할 수 있는 것입니다.</p>
 
-<p>{% img center /images/2013-07-19-pokr.png 600 %}</p>
+<p><img class="center" src="/images/2013-07-19-pokr.png" width="600"></p>
 
 <div class="caption">
 포커(Pokr)에 게시된 2013년 7월 19일자 원자력안전법 일부개정법률안
@@ -130,7 +130,7 @@
     <content type="html"><![CDATA[<p><a href="http://pokr.kr">포커(Pokr)</a>를 세상에 내놓은지 한 달.<br>
 페이스북 <code>좋아요</code> 개수 1K를 찍었습니다!<!-- more --></p>
 
-<p>{% img center /images/2013-07-13-1k.png %}</p>
+<p><img class="center" src="/images/2013-07-13-1k.png"></p>
 
 <p>지난 몇 달간 포커를 탄생시키기 위해 온 열의를 다 쏟은 개발팀에게는 가장 큰 선물이었습니다. 이 기쁨을 안고 정식 런칭을 해서, 천 명이 아니라 전국 수천만명의 잠재적 유저들이 유익하게 사용할 수 있는 서비스를 만들기 위해 노력하겠습니다.</p>
 
@@ -160,7 +160,7 @@
 
 <p>익명의 유저께서, 국회의원 프로필 위에 마우스를 올렸을 때 정당명을 툴팁으로 보여주면 좋겠다는 의견을 남겨주셨습니다. 저희도 몹시 좋은 의견이라고 공감하였고, 3일이 채 지나기도 전에 바로 서비스에 적용하고 답글을 남겨드렸습니다.</p>
 
-<p>{% img center /images/2013-07-10-feedback.png %}</p>
+<p><img class="center" src="/images/2013-07-10-feedback.png"></p>
 
 <p>정말 멋지고 퐌타스틱하지 않나요?<br>
 여러분도 의견을 남겨보세요. 저희가 번개같이 처리하고 감사의 댓글을 달아드리도록 하겠습니다.<br>
@@ -196,7 +196,7 @@
 </li>
 <li>각 섹션에 <a href="http://pokr.kr/person/195224#legislations">고유 URL</a> 부여</li>
 <li>페이지 계층 구조 표시<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup><br>
-  {% img /images/2013-07-03-breadcrumb.png %}</li>
+  <img src="/images/2013-07-03-breadcrumb.png"></li>
 <li>모바일 지원</li>
 <li><a href="http://pokr.kr/404">404</a>(페이지를 찾을 수 없습니다), 500(내부 에러) 페이지</li>
 <li>의원, 정당, 의안, 지역, 학교 <a href="http://pokr.kr/search?query=%EA%B2%BD%EA%B8%B0">통합검색</a></li>
@@ -232,7 +232,7 @@
 
 <ul>
 <li>미완성 기능들을 제거하는 과정에서 레이아웃도 좀 더 심플하게 바꾸기로 결정하였습니다.
-{% img center /images/2013-07-03-pokr.png 500 %}</li>
+<img class="center" src="/images/2013-07-03-pokr.png" width="500"></li>
 </ul>
 </li>
 <li>데이터를 테이블 형태로 표시
@@ -264,7 +264,7 @@
 
 <ul>
 <li>의안 처리 상태에 마우스를 가져가면 상세설명 표시<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>
-  {% img /images/2013-07-02-bill-status-desc-en.png 600 %}</li>
+  <img src="/images/2013-07-02-bill-status-desc-en.png" width="600"></li>
 <li>의안 원문 PDF 링크</li>
 <li>발의자들의 정당 분포를 파이차트로 표시<br>
 예) <a href="http://pokr.kr/bill/1901176">고용상 연령차별금지 및 고령자고용촉진에 관한 법률 일부개정법률안</a></li>
@@ -343,7 +343,7 @@
     <link href="http://blog.popong.com/2013/06/30/logo-change/"/>
     <updated>2013-06-30T02:54:00+09:00</updated>
     <id>http://blog.popong.com/2013/06/30/logo-change</id>
-    <content type="html"><![CDATA[<p>{% img /images/2013-06-30-popong-logo.png %}<!-- more --></p>
+    <content type="html"><![CDATA[<p><img src="/images/2013-06-30-popong-logo.png"><!-- more --></p>
 
 <p>&lsquo;P&rsquo; 모양의 도형들이 퐁퐁 솟아나고 있어요.<br>
 다채롭고 즐거운 아이디어가 퐁!퐁!퐁! 솟아나는 활기찬 집단, 팀포퐁을 상징하도록 이번에 새로 디자인해보았습니다 :D</p>
