@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ko | Team POPONG]]></title>
   <link href="http://blog.popong.com//ko/atom.xml" rel="self"/>
   <link href="http://blog.popong.com/"/>
-  <updated>2013-07-29T01:39:50+09:00</updated>
+  <updated>2013-08-07T14:23:31+09:00</updated>
   <id>http://blog.popong.com/</id>
   <author>
     <name><![CDATA[teampopong]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[의안의 기하급수적 증가]]></title>
+    <link href="http://blog.popong.com/2013/08/03/bill-explosion/"/>
+    <updated>2013-08-03T09:39:00+09:00</updated>
+    <id>http://blog.popong.com/2013/08/03/bill-explosion</id>
+    <content type="html"><![CDATA[<p>오늘은 19대 국회가 출범한지 431일 되는 날입니다.</p>
+
+<!-- more -->
+
+
+<p>현재까지 19대 국회는 6266개의 의안을 발의했고, (# 수정해야함)
+이를 연단위로 환산해보면</p>
+
+<p><img src="/images/2013-08-03-nbills.png"></p>
+
+<p>물론 국회의 기간이 짧았던 경우도 있기 때문에 연단위로 환산해보겠습니다.</p>
+
+<p><img class="center" src="/images/2013-08-04-bills-per-year.png"></p>
+
+<div class="caption">1대부터 19대 국회까지 연평균 발의 개수</div>
+
+
+<p>(숫자들 맞는지 확인해봐야함)
+(대통령 재임 기간 표기)
+(축 레이블 달기)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[포커(Pokr)가 국회 의안정보시스템과 다른게 뭐죠?]]></title>
@@ -335,22 +363,6 @@
 </ol>
 </div>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[팀포퐁의 로고가 바뀌었어요!]]></title>
-    <link href="http://blog.popong.com/2013/06/30/logo-change/"/>
-    <updated>2013-06-30T02:54:00+09:00</updated>
-    <id>http://blog.popong.com/2013/06/30/logo-change</id>
-    <content type="html"><![CDATA[<p><img src="/images/2013-06-30-popong-logo.png"><!-- more --></p>
-
-<p>&lsquo;P&rsquo; 모양의 도형들이 퐁퐁 솟아나고 있어요.<br>
-다채롭고 즐거운 아이디어가 퐁!퐁!퐁! 솟아나는 활기찬 집단, 팀포퐁을 상징하도록 이번에 새로 디자인해보았습니다 :D</p>
-
-<p>정말 예쁘죠? ^_______^</p>
-
-<blockquote><p>로고는 먼저 <a href="http://facebook.com/teampopong">페이스북 페이지</a>와 <a href="http://twitter.com/teampopong">트위터</a>에 적용하였고, <a href="http://popong.com">popong.com</a>을 비롯해 다른 곳에는 단계적으로 적용할 예정입니다.</p></blockquote>
 ]]></content>
   </entry>
   
