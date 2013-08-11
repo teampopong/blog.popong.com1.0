@@ -1,0 +1,11 @@
+---
+layout: post
+title: "19th assembly"
+date: 2013-05-01 14:36
+comments: true
+categories: [ko, assembly]
+---
+
+19대 국회의원 선거가 끝난지 xxx되었습니다.
+당시에 총 1090명의 후보가 출마하였고 총 그 중 총 300명의 의원이 선출되었습니다.
+약 3.6:1의 경쟁률을 뚫었다고 볼 수 있는데요 
