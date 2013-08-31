@@ -1,1 +1,1 @@
-http://folketsting.dk/politikere/maja-panduro/1127http://www.openingparliament.org/organizations
+http://folketsting.dk/politikere/maja-panduro/1127http://www.openingparliament.org/organizationshttp://www.ndi.org/files/governance-parliamentary-monitoring-organizations-survey-september-2011.pdf
