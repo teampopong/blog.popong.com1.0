@@ -13,3 +13,7 @@ model에 `..., index=True` 추가했다고 안심하지 말고 직접 확인해 
 
 1. (PostgreSQL) `pg_stat_user_tables` 테이블을 이용해 indexed search와 sequential search가 얼마나 이루어지고 있는지 알 수 있다.<br>
 만약 sequential search가 많이 발생하고 있다면 missing index가 있을 가능성이 크다.
+
+1. [Building an Up to Date Database from Scratch](https://alembic.readthedocs.org/en/latest/tutorial.html#building-an-up-to-date-database-from-scratch)
+
+1. [Alembic head인지 코드에서 체크하는 법](https://gist.github.com/cornchz/3546320e7dc054dbc793)
