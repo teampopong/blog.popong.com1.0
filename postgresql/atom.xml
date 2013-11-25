@@ -4,7 +4,7 @@
   <title><![CDATA[Category: PostgreSQL | Team POPONG]]></title>
   <link href="http://blog.popong.com//postgresql/atom.xml" rel="self"/>
   <link href="http://blog.popong.com/"/>
-  <updated>2013-11-25T21:58:52+09:00</updated>
+  <updated>2013-11-25T22:08:18+09:00</updated>
   <id>http://blog.popong.com/</id>
   <author>
     <name><![CDATA[teampopong]]></name>
@@ -48,6 +48,9 @@
 
 <p>게다가 <a href="http://www.postgresql.org/">PostgreSQL</a>의 <em>text</em> 필드는 충분히 넉넉해서(up to 1GB) 많은 경우엔 큰 고민 없이 사용해도 됩니다.
 그러니 혹시나 <a href="http://www.postgresql.org/">PostgreSQL</a>을 쓰시는 분이 있다면 <em>text</em> 필드를 애용하세요!</p>
+
+<p>[UPDATED 2013.11.21]<br>
+때로는 제약이 필요한 상황도 있는데, <a href="http://blog.jonanin.com/2013/11/20/postgresql-char-varchar/"><em>text</em>에 <em>CONSTRAINT</em>를 걸어서</a> 사용하면 나중에 언제든 큰 코스트 없이 제약을 변경할 수 있기 때문에, 여전히 <em>text</em>가 <em>char(x)</em>나 <em>varchar(x)</em>보다 낫습니다.</p>
 ]]></content>
   </entry>
   

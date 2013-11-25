@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: pokr | Team POPONG]]></title>
+  <link href="http://blog.popong.com//pokr/atom.xml" rel="self"/>
+  <link href="http://blog.popong.com/"/>
+  <updated>2013-11-25T22:08:18+09:00</updated>
+  <id>http://blog.popong.com/</id>
+  <author>
+    <name><![CDATA[teampopong]]></name>
+    <email><![CDATA[contact@popong.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[대한민국 정치의 모든 것 1,000 커밋!]]></title>
+    <link href="http://blog.popong.com/2013/11/18/pokr.kr-1000-commits/"/>
+    <updated>2013-11-18T10:27:00+09:00</updated>
+    <id>http://blog.popong.com/2013/11/18/pokr.kr-1000-commits</id>
+    <content type="html"><![CDATA[<p><a href="http://pokr.kr">대한민국 정치의 모든 것</a> 소스코드가 1000번째 커밋<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>을 달성했습니다!<!-- more --></p>
+
+<p><img class="center" src="/images/2013-11-18-1000-commits.png" width="350"></p>
+
+<p><a href="https://github.com/teampopong/pokr/commit/92fabee5bff780c7784e2de7dd4800dd260d16fe">2011년 8월 6일</a>, 소스 코드 저장소(당시 프로젝트명 <em>intimacy</em>)에 코드를 <a href="https://github.com/teampopong/pokr/commit/92fabee5bff780c7784e2de7dd4800dd260d16fe">처음 커밋</a>한 이후, 2년간 <strong>1,000번</strong>의 업데이트를 통해 지금의 <a href="http://pokr.kr">대한민국 정치의 모든 것</a>이 탄생했습니다.</p>
+
+<p>아직 계획한 주요 기능들조차 다 구현하지 못한 어린 아이 같은 서비스지만, 지금까지 그래 온 것처럼 계속 사랑으로<span style="color: #ff2400;">♥</span> 키우겠습니다. 관심 가지고 지켜봐 주세요~ :D</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>프로그램의 소스 코드를 변경하는 단위. 하나의 커밋은 일반적으로 하나의 기능 또는 하나의 버그 수정 등을 포함합니다.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>
