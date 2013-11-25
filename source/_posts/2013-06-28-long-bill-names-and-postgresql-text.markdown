@@ -34,3 +34,6 @@ categories: [ko, PostgreSQL]
 
 게다가 [PostgreSQL](http://www.postgresql.org/)의 *text* 필드는 충분히 넉넉해서(up to 1GB) 많은 경우엔 큰 고민 없이 사용해도 됩니다.
 그러니 혹시나 [PostgreSQL](http://www.postgresql.org/)을 쓰시는 분이 있다면 *text* 필드를 애용하세요!
+
+\[UPDATED 2013.11.21\]<br>
+때로는 제약이 필요한 상황도 있는데, [*text*에 *CONSTRAINT*를 걸어서](http://blog.jonanin.com/2013/11/20/postgresql-char-varchar/) 사용하면 나중에 언제든 큰 코스트 없이 제약을 변경할 수 있기 때문에, 여전히 *text*가 *char(x)*나 *varchar(x)*보다 낫습니다.
