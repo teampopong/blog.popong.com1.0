@@ -23,8 +23,6 @@ categories: [ko]
 
 의안을 발의한 의원들에게 손쉽게 직접 질문, 건의할 수 있게 되었으니 많이 이용해 주시기 바랍니다!
 
-{% img center images/2013-11-25-twitter-reply.png %}
-
 <center>
 <a href="http://twitter.com/pokrbot"><div style="background: #EEE; padding: 10px; margin-top: 30px;">@pokrbot 바로가기</div></a>
 </center>
