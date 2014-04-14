@@ -4,7 +4,7 @@
   <title><![CDATA[Team POPONG]]></title>
   <link href="http://blog.popong.com/atom.xml" rel="self"/>
   <link href="http://blog.popong.com/"/>
-  <updated>2014-01-27T04:27:46+09:00</updated>
+  <updated>2014-04-14T15:38:01+09:00</updated>
   <id>http://blog.popong.com/</id>
   <author>
     <name><![CDATA[teampopong]]></name>
@@ -1228,7 +1228,7 @@ Inspired by <a href="http://www.govtrack.us/blog/2013/02/09/winter-2013-updates-
 
 
 
-<ol><li><strong>이름</strong>과 <strong>국회 대수</strong>를 key로 할 경우, 동명이인이 존재함. (ex: 18대 국회에는 <a href="http://popong.com/polidic/person/q/%EA%B9%80%EC%84%A0%EB%8F%99" target="_blank">&#8216;김선동&#8217;</a>과 <a href="http://popong.com/polidic/person/q/%EC%9D%B4%EC%98%81%EC%95%A0" target="_blank">&#8216;이영애&#8217;</a>가 각각 2명 씩 존재함.)</li>
+<ol><li><strong>이름</strong>을 key로 할 경우, 동명이인이 존재함. (ex: 18대 국회에는 <a href="http://popong.com/polidic/person/q/%EA%B9%80%EC%84%A0%EB%8F%99" target="_blank">&#8216;김선동&#8217;</a>과 <a href="http://popong.com/polidic/person/q/%EC%9D%B4%EC%98%81%EC%95%A0" target="_blank">&#8216;이영애&#8217;</a>가 각각 2명 씩 존재함.)</li>
 
 <li><strong>이름</strong>과 <strong>생년</strong>을 key로 할 경우, 동일인으로 추정되는 사람이 여러 번 반복적으로 등장함. (ex: <a href="http://popong.com/polidic/person/q/%EA%B9%80%EC%9E%AC%EC%88%9C" target="_blank">&#8216;김재순&#8217;</a>, <a href="http://popong.com/polidic/person/q/%EA%B9%80%EC%9A%A9%ED%98%B8" target="_blank">&#8216;김용호&#8217;</a>, <a href="http://popong.com/polidic/person/q/%EC%9D%B4%EA%B4%80%ED%98%95" target="_blank">&#8216;이관형&#8217;</a>, 
 
@@ -1253,6 +1253,14 @@ Inspired by <a href="http://www.govtrack.us/blog/2013/02/09/winter-2013-updates-
 <li>Keith Poole, &#8220;Corrected ICPSR Member ID Numbers&#8221;, <a href="http://www.voteview.com/icpsr.htm" target="_blank"><a href="http://www.voteview.com/icpsr.htm" target="_blank">http://www.voteview.com/icpsr.htm</a></a></li>
 
 </ol>
+
+<hr>
+
+<pre>
+* 2014년 4월 14일 업데이트:
+최종적으로 결정된 의원 고유 번호는 <a href='https://github.com/teampopong/codebooks/blob/master/cb-people.csv'>이 곳</a>에서 확인하실 수 있습니다.
+</pre>
+
 ]]></content>
   </entry>
   
