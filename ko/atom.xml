@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ko | Team POPONG]]></title>
   <link href="http://blog.popong.com//ko/atom.xml" rel="self"/>
   <link href="http://blog.popong.com/"/>
-  <updated>2014-04-14T15:38:01+09:00</updated>
+  <updated>2014-05-07T00:39:44+08:00</updated>
   <id>http://blog.popong.com/</id>
   <author>
     <name><![CDATA[teampopong]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[트위터 포커봇 업데이트]]></title>
     <link href="http://blog.popong.com/2013/11/25/pokrbot-update/"/>
-    <updated>2013-11-25T21:29:00+09:00</updated>
+    <updated>2013-11-25T21:29:00+08:00</updated>
     <id>http://blog.popong.com/2013/11/25/pokrbot-update</id>
     <content type="html"><![CDATA[<p>오늘부터! <a href="http://twitter.com/pokrbot">@pokrbot</a>이 새로 발의된 의안을 소개드릴 때 대표발의의원의 트위터 계정도 함께 알려드립니다.<!-- more --></p>
 
@@ -48,7 +48,7 @@
   <entry>
     <title type="html"><![CDATA[대한민국 정치의 모든 것 1,000 커밋!]]></title>
     <link href="http://blog.popong.com/2013/11/18/pokr.kr-1000-commits/"/>
-    <updated>2013-11-18T10:27:00+09:00</updated>
+    <updated>2013-11-18T10:27:00+08:00</updated>
     <id>http://blog.popong.com/2013/11/18/pokr.kr-1000-commits</id>
     <content type="html"><![CDATA[<p><a href="http://pokr.kr">대한민국 정치의 모든 것</a> 소스코드가 1000번째 커밋<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>을 달성했습니다!<!-- more --></p>
 
@@ -71,7 +71,7 @@
   <entry>
     <title type="html"><![CDATA[2013년 7, 8, 9월 업데이트 내역]]></title>
     <link href="http://blog.popong.com/2013/10/03/updates-ko/"/>
-    <updated>2013-10-03T18:00:00+09:00</updated>
+    <updated>2013-10-03T18:00:00+08:00</updated>
     <id>http://blog.popong.com/2013/10/03/updates-ko</id>
     <content type="html"><![CDATA[<p><a href="http://pokr.kr"><strong>대한민국 정치의 모든 것</strong></a>을 베타 오픈한지 벌써 4달, 여러분의 많은 관심과 피드백 덕분에 저희는 2달에 한 번씩 써오던 업데이트를 3달치 몰아서 써야 할 정도로 정신없는 나날들을 보냈습니다.<br><br>
 팀포퐁은 지난 세 달간 이러한 일들을 했답니다 :)</p>
@@ -146,7 +146,7 @@
   <entry>
     <title type="html"><![CDATA[포커(Pokr)가 국회 의안정보시스템과 다른게 뭐죠?]]></title>
     <link href="http://blog.popong.com/2013/07/19/pokrs-contribution/"/>
-    <updated>2013-07-19T12:00:00+09:00</updated>
+    <updated>2013-07-19T12:00:00+08:00</updated>
     <id>http://blog.popong.com/2013/07/19/pokrs-contribution</id>
     <content type="html"><![CDATA[<p>어느덧 <a href="http://pokr.kr">포커(Pokr)</a> 베타오픈을 한 지 40여 일이 지났습니다.<br>
 그 동안 <a href="mailto:contact@popong.com">이메일</a>, <a href="http://twitter.com/teampopong">트위터</a>, <a href="http://facebook.com/teampopong">페이스북</a>, <a href="http://teampopong.uservoice.com">피드백 포럼</a> 등을 통해 국내외에서 수없이 많은 관심과 응원을 받았고, <a href="/2013/07/13/weve-reached-1k-pokr-likes/">페이스북 라이크도 1K를 달성했습니다</a>.</p>
@@ -255,7 +255,7 @@
   <entry>
     <title type="html"><![CDATA[1K]]></title>
     <link href="http://blog.popong.com/2013/07/13/weve-reached-1k-pokr-likes/"/>
-    <updated>2013-07-13T16:23:00+09:00</updated>
+    <updated>2013-07-13T16:23:00+08:00</updated>
     <id>http://blog.popong.com/2013/07/13/weve-reached-1k-pokr-likes</id>
     <content type="html"><![CDATA[<p><a href="http://pokr.kr">포커(Pokr)</a>를 세상에 내놓은지 한 달.<br>
 페이스북 <code>좋아요</code> 개수 1K를 찍었습니다!<!-- more --></p>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: PostgreSQL | Team POPONG]]></title>
   <link href="http://blog.popong.com//postgresql/atom.xml" rel="self"/>
   <link href="http://blog.popong.com/"/>
-  <updated>2014-04-14T15:38:01+09:00</updated>
+  <updated>2014-05-07T00:39:44+08:00</updated>
   <id>http://blog.popong.com/</id>
   <author>
     <name><![CDATA[teampopong]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[긴~~~~~ 의안 이름과 PostgreSQL text]]></title>
     <link href="http://blog.popong.com/2013/06/28/long-bill-names-and-postgresql-text/"/>
-    <updated>2013-06-28T00:00:00+09:00</updated>
+    <updated>2013-06-28T00:00:00+08:00</updated>
     <id>http://blog.popong.com/2013/06/28/long-bill-names-and-postgresql-text</id>
     <content type="html"><![CDATA[<p><a href="http://pokr.kr">포커(Pokr)</a>가 아직 포커란 이름을 가지지 못했던 호랑이 담배피던 시절, 팀포퐁은 1대에서 19대까지 모든 의안을 수집하고 데이터베이스에 넣는 작업을 하고 있었습니다.<!-- more -->
 의안 한두개 테스트해 봤을 때 아무 문제(<img src="/images/icon-bug.png">) 없는 거 같아 DB에 의안을 입력시키는 스크립트를 돌려두고 맘 편히 잠자리에 들었는데&hellip; 역시 한 번에 <img src="/images/icon-bug.png"> 없이 돌아가는 프로그램은 없죠&hellip;</p>
