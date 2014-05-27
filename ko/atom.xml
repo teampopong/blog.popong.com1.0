@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ko | Team POPONG]]></title>
   <link href="http://blog.popong.com//ko/atom.xml" rel="self"/>
   <link href="http://blog.popong.com/"/>
-  <updated>2014-05-27T23:25:02+09:00</updated>
+  <updated>2014-05-27T23:50:24+09:00</updated>
   <id>http://blog.popong.com/</id>
   <author>
     <name><![CDATA[teampopong]]></name>
@@ -25,7 +25,7 @@
 <!-- more -->
 
 
-<p>그것은 다름 아니라
+<p>다름 아니라
 <a href="http://pokr.kr">대한민국 정치의 모든 것</a>에서 기존에 제공하던
 <a href="http://pokr.kr/person">인물</a>, <a href="http://pokr.kr/bill">의안</a>, <a href="http://pokr.kr/party">정당</a>, <a href="http://pokr.kr/region">지역</a> 페이지 외에
 <a href="http://pokr.kr/meeting">회의</a> 페이지를 추가적으로 제공하게 되었다는 것입니다.
@@ -34,8 +34,8 @@
 원문 PDF와 변환된 HTML은 각각 아래 그림에서 보실 수 있습니다.</p>
 
 <center>
-<img src="/images/2014-05-27-pdf.png" width="300">
-<img src="/images/2014-05-27-html.png" width="300">
+<a href="http://likms.assembly.go.kr/record/new/getFileDown.jsp?CONFER_NUM=044100"><img src="/images/2014-05-27-pdf.png" width="300"></a>
+<a href="http://pokr.kr/meeting/19325244267/dialog"><img src="/images/2014-05-27-html.png" width="300"></a>
 </center>
 
 
